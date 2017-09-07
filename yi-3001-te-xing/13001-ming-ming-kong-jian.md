@@ -4,3 +4,11 @@
 
 **PHP组件和框架都放在各自全局唯一的厂商命名空间，以免与其他得厂商使用的常见类名冲突。**
 
+```
+<?php
+
+namespace Symfony\Component\HttpFoundation;
+```
+
+
+
