@@ -16,6 +16,7 @@
       * [1、概览](er-3001-feng-ge/1psr/11-psr-1/13001-gai-lan.md)
       * [2、文件](er-3001-feng-ge/1psr/11-psr-1/23001-wen-jian.md)
       * [3、命名空间和类](er-3001-feng-ge/1psr/11-psr-1/33001-ming-ming-kong-jian-he-lei.md)
+      * [4、类和常量](er-3001-feng-ge/1psr/11-psr-1/43001-lei-he-chang-liang.md)
     * 1.2 PSR2
     * 1.3 PSR3
     * [1.4 PSR4](er-3001-feng-ge/1psr/14-psr4.md)
