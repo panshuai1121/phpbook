@@ -12,4 +12,10 @@
   * 8、自动加载
 * [二、风格](er-3001-feng-ge.md)
   * [1、PSR](er-3001-feng-ge/1psr.md)
+    * [1.1 PSR 1](er-3001-feng-ge/1psr/11-psr-1.md)
+    * 1.2 PSR2
+    * 1.3 PSR3
+    * [1.4 PSR4](er-3001-feng-ge/1psr/14-psr4.md)
+    * [1.5 PSR6](er-3001-feng-ge/1psr/15-psr5.md)
+    * 1.6 PSR7
 
