@@ -7,7 +7,16 @@
 
 例子：
 
+```
+<?php
+namespace Vender\Package;
 
+use FooClass;
+use BarClass as Bar;
+use OtherVender\OderPackage\BazClass;
+
+//.........
+```
 
 
 
