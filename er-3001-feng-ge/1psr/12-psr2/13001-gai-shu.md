@@ -20,3 +20,34 @@
 
 控制体结构开始的左括号后和结束右括号前，都 **一定不可 **有空格符。
 
+例子：
+
+```
+namespace Vendor\Package;
+
+use FooInterFace;
+use BarClass as Bar;
+use OrderVender\OtherPackage\BazClass;
+
+class Foo extends Bar implements FooInterFace
+{
+    public function sampleFunction($a,$b = null)
+    {
+        if ($a === $b) {
+            bar();
+        } else if ($a > $b) {
+            $foo->bar($arg1);
+        } else {
+            BazClass::bar($arg2,$arg3);
+        }
+    }
+
+    final public static function bar()
+    {
+      
+    }
+}
+```
+
+
+
