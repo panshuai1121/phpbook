@@ -38,11 +38,7 @@ Class Foo extends FooClass implements
 
 **一定不可以 **使用关键字 var 声明一个属性；
 
-每条语句 **一定不可 **定义超过一个属性；
-
-
-
-
+一条语句 **不可** 声明多个属性；
 
 
 
