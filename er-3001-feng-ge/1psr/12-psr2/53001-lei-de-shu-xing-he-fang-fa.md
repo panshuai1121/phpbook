@@ -30,6 +30,7 @@ Class Foo extends FooClass implements
 {
 
 }
+
 ```
 
 ## 2、属性
@@ -47,7 +48,6 @@ class ClassName
 {
     public $foo = null;
 }
-
 ```
 
 ## 3、方法
