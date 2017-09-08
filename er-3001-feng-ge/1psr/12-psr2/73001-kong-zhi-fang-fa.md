@@ -13,7 +13,26 @@
 
 ### 1、if else
 
+```
+<?php
+namespace Vendor\Package;
 
+abstract class ClassName
+{
+    protected static $foo;
+    abstract protected function zim();
+    final public static function bar()
+    {
+        if ($expr1) {
+            // if body
+        } elseif ($expr2) {
+            // elseif body
+        } else {
+            //else body;  
+        }
+    }
+}
+```
 
 
 
