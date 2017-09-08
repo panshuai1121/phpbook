@@ -24,5 +24,23 @@ PHP代码 **必须** 且只可以使用 **不带BOM的UTF-8 **编码。
 
 需要避免的例子：
 
+```
+<?php
+// 副作用：修改了ini配置
+ini_set('error_reporting', E_ALL);
+
+// 副作用：载入了文件
+include "file.php";
+
+// 副作用：产生了输出
+echo "<html>\n";
+
+// 声明
+function foo()
+{
+    // 函数体
+}
+```
+
 
 
