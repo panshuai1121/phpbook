@@ -36,9 +36,16 @@ abstract class ClassName
 
 **应该 **使用关键词 `elseif`代替所有 `else if`，以使得所有的控制关键字都像是单独的一个词。
 
-### 2、swith 和 case 
+### 2、swith 和 case
+
+标准的`switch`结构如下代码所示，留意括号、空格以及花括号的位置。`case`语句**必须**相对`switch`进行一次缩进，而`break`语句以及`case`内的其它语句都**必须**相对`case`进行一次缩进。
+
+如果存在非空的`case`直穿语句，主体里**必须**有类似`// no break`的注释。
+
+```
 
 
+```
 
 
 
