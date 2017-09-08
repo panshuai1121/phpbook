@@ -9,7 +9,7 @@
   * [5、闭包](yi-3001-te-xing/53001-bi-bao.md)
   * [6、内置HTTP服务器](yi-3001-te-xing/63001-nei-zhi-http-fu-wu-qi.md)
   * [7、PHP-FIG](yi-3001-te-xing/7php-fig.md)
-  * 8、自动加载
+  * [8、自动加载](yi-3001-te-xing/83001-zi-dong-jia-zai.md)
 * [二、风格](er-3001-feng-ge.md)
   * [1、PSR](er-3001-feng-ge/1psr.md)
     * [1.1 PSR 1](er-3001-feng-ge/1psr/11-psr-1.md)
