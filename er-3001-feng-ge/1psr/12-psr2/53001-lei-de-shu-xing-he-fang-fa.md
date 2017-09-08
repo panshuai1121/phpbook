@@ -47,6 +47,7 @@ class ClassName
 {
     public $foo = null;
 }
+
 ```
 
 ## 3、方法
@@ -68,7 +69,6 @@ Class ClassName
         //method body
     }  
 }
-
 ```
 
 
