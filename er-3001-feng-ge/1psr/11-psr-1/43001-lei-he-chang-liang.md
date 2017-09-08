@@ -16,5 +16,15 @@ class Foo
 }
 ```
 
+**类的属性**
+
+类的属性命名：
+
+* 大写开头的驼峰 $StudlyCaps；
+* 小写开头的驼峰$studlyCaps;
+* 下划线分隔 $under\_score;
+
+
+
 
 
