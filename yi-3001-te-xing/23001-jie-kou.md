@@ -12,5 +12,38 @@ _**implements**_
 
 操作符。**类中必须实现接口中定义的所有方法，否则会报一个致命错误。类可以实现多个接口，用逗号来分隔多个接口的名称**。
 
+```
+<?php
+
+/**
+ *
+ */
+interface IDoSomething
+{
+  public static function doSomething();
+}
+
+class One implements IDoSomething
+{
+    public static function doSomething() {
+          echo "learn php ";
+    }
+}
+
+class two implements IDoSomething
+{
+   public static function doSomething () {
+       echo "learn linux";
+   }
+}
+
+function example(IDoSomething $doer) {
+    $doer::doSomething();
+}
+
+example(new one());
+example(new two());
+```
+
 
 
