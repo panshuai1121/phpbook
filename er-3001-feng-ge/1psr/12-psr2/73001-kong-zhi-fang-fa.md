@@ -34,5 +34,5 @@ abstract class ClassName
 }
 ```
 
-
+**应该 **使用关键词 `elseif `代替所有 `else if`，以使得所有的控制关键字都像是单独的一个词。
 
