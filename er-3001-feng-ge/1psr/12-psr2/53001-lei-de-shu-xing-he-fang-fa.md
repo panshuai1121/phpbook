@@ -20,7 +20,7 @@ use OtherVender\OderPackage\BazClass;
 
 Class Foo extends FooClass implements \ArrayAccess, \Countable
 {
-  
+
 }
 
 #也可以
@@ -28,9 +28,13 @@ Class Foo extends FooClass implements
     \ArrayAccess,
     \Countable
 {
-  
+
 }
 ```
+
+## 2、属性 方法
+
+
 
 
 
