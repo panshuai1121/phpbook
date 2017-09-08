@@ -16,3 +16,15 @@ namespace Symfony\Component\HttpFoundation;
 
 
 
+---
+
+### 别名
+
+应该在PHP文件的顶部使用use关键字导入代码，放在&lt;?php命名空间声明之后，使用use关键字前不用加\ 会默认为w安全限定命名空间。
+
+use 关键字必须出现在全局作用域（不能在函数类中），因为是在编译时使用。
+
+
+
+
+
