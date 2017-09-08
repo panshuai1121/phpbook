@@ -11,5 +11,5 @@
   * [7、PHP-FIG](yi-3001-te-xing/7php-fig.md)
   * 8、自动加载
 * [二、风格](er-3001-feng-ge.md)
-  * 1、PSR
+  * [1、PSR](er-3001-feng-ge/1psr.md)
 
