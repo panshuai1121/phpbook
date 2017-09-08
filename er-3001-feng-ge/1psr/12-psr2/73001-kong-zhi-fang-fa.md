@@ -72,8 +72,25 @@ while ($expr) {
 }
 
 do {
-  
+
 } while ($expr);
+```
+
+### 4、for
+
+```
+for ($i = 0; $i < 10; $i++) {
+    //
+}
+```
+
+### 5、foreach
+
+```
+foreach ($iterable as $key => $value) {
+    //
+}
+
 ```
 
 
