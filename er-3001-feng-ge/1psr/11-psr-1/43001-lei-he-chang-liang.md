@@ -28,5 +28,5 @@ class Foo
 
 ### 方法：
 
-方法必须符合 camelCase\(\) 小写驼峰开头
+方法 **必须 **符合 camelCase\(\) 小写驼峰开头
 
