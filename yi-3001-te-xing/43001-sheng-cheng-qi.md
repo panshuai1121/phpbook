@@ -52,5 +52,25 @@ foreach ($customRange as $i) {
 
 例子：需要处理一个4GB的CSV文件，虚拟私有服务器只有1GB的内存空间给PHP，因此不能把整个文件都加在到内存当中。解决办法
 
+```
+<?php
+
+function getRows($file) {
+   $handle = fopen($file);
+   if($handle === false) {
+      throw new Exception("文件错误", 1);
+   }
+   while (feof($handle) === false) {
+      yield fgetcsv($handle);
+   }
+   fclose($handle);
+}
+
+foreach (getRows("data.csv") as $row) {
+   print_r($row);
+}
+
+```
+
 
 
