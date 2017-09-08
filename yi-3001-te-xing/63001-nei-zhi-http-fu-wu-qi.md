@@ -16,5 +16,11 @@ PHP -S localhost:4000
 PHP -S localhost:8000 -C app/config/php.ini
 ```
 
+**路由配置**
+
+```
+PHP -S localhost：8000 -c router.php
+```
+
 
 
