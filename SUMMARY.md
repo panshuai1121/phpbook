@@ -23,6 +23,7 @@
       * [3、关键字](er-3001-feng-ge/1psr/12-psr2/33001-guan-jian-zi.md)
       * [4、namespace 以及 use 声明](er-3001-feng-ge/1psr/12-psr2/4namespace-yi-ji-use-sheng-ming.md)
       * [5、类、属性和方法](er-3001-feng-ge/1psr/12-psr2/53001-lei-de-shu-xing-he-fang-fa.md)
+      * [6、abstract final static](er-3001-feng-ge/1psr/12-psr2/6abstract-final-static.md)
     * 1.3 PSR3
     * [1.4 PSR4](er-3001-feng-ge/1psr/14-psr4.md)
     * [1.5 PSR6](er-3001-feng-ge/1psr/15-psr5.md)
