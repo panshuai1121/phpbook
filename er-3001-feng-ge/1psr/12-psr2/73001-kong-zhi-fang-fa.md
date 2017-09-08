@@ -66,5 +66,15 @@ switch ($expr) {
 
 一个规范的 while 语句应该如下表示，注意其括号、空格以及花括号的位置。
 
+```
+while ($expr) {
+    //body
+}
+
+do {
+  
+} while ($expr);
+```
+
 
 
