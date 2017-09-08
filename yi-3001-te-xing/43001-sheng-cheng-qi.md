@@ -12,5 +12,27 @@
 
 
 
+```
+<?php
+
+function makeRange($length) {
+   $dataSet = [];
+   for ($i = 0; $i < $length ;$i++ ) {
+     $dataSet[] = $i;
+   }
+   return $dataSet;
+}
+
+$customRange = makeRange(10000000);
+
+foreach ($customRange as $i) {
+   echo $i.PHP_EOL;
+}
+#结果会报错
+#PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 134217736 bytes) in makeRange.php on line 6
+#Fatal error: Allowed memory size of 134217728 bytes exhausted (tried to allocate 134217736 bytes) in makeRange.php on line 6
+
+```
+
 
 
