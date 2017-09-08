@@ -30,7 +30,6 @@ Class Foo extends FooClass implements
 {
 
 }
-
 ```
 
 ## 2、属性
@@ -64,7 +63,7 @@ namespace Vender\Package;
 
 Class ClassName
 {
-    public function fooBarBaz($arg1,$arg2,$arg3 = [])
+    public function fooBarBaz($arg1, $arg2, $arg3 = [])
     {
         //method body
     }  
