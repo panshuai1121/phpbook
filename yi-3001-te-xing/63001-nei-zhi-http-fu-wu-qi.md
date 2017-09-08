@@ -8,7 +8,9 @@ PHP -S localhost:4000
 
 ---
 
-配置服务器
+**配置服务器**
+
+如果团队人员需要共享，可以把配置文件放在版本控制中。
 
 ```
 PHP -S localhost:8000 -C app/config/php.ini
