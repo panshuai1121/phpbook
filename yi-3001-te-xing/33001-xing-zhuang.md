@@ -23,14 +23,14 @@ trait World {
     {
         self::$instance = new static();
         self::$instance->tmp = get_called_class().' '.__TRAIT__;
-        
+
         return self::$instance;
     }
 
 }
 
 if ( trait_exists( 'World' ) ) {
-    
+
     class Hello {
         use World;
 
