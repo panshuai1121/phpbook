@@ -39,7 +39,15 @@ Class Foo extends FooClass implements
 * 一条语句 **不可** 声明多个属性；
 * **不该 **使用下划线作为前缀，来区分属性是 protected 或 private。
 
+```
+<?php
+namespace Vendor\Package;
 
+class ClassName
+{
+    public $foo = null;
+}
+```
 
 
 
