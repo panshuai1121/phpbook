@@ -57,5 +57,19 @@ class ClassName
 
 **不该 **使用下划线作为前缀，来区分方法是 protected 或 private。
 
+```
+<?php
+namespace Vender\Package;
+
+Class ClassName
+{
+    public function fooBarBaz($arg1,$arg2,$arg3 = [])
+    {
+        //method body
+    }  
+}
+
+```
+
 
 
