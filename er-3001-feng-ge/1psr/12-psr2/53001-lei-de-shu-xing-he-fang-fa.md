@@ -74,5 +74,18 @@ Class ClassName
 
 有默认的参数，**必须 **放到参数列表的末尾。
 
+```
+<?php
+namespace Vender\Package;
+
+Class ClassName
+{
+    public function foo($arg1, &$arg2, $arg3 = [])
+    {
+
+    }
+}
+```
+
 
 
