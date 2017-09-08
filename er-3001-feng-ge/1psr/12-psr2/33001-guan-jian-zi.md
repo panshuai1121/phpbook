@@ -2,7 +2,7 @@
 
 PHP所有的关键字** 必须**小写 。
 
-
+常量 true、false、null 也必须全部小写。
 
 | \_\_halt\_copiler\(\) | [abstract](http://php.net/manual/en/language.oop5.abstract.php) | [and](http://php.net/manual/en/language.operators.logical.php) | [array\(\)](http://php.net/manual/en/function.array.php) | [as](http://php.net/manual/en/control-structures.foreach.php) |
 | :--- | :--- | :--- | :--- | :--- |
