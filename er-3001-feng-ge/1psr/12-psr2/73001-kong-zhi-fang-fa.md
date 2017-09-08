@@ -90,8 +90,11 @@ for ($i = 0; $i < 10; $i++) {
 foreach ($iterable as $key => $value) {
     //
 }
-
 ```
+
+### 6、try catch
+
+
 
 
 
