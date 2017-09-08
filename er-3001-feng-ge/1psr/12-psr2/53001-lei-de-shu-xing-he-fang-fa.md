@@ -10,5 +10,27 @@
 
 `implements`的继承列表也 **可以 **分成多行，这样的话，每个继承接口名称都 **必须 **分开独立成行，包括第一个；
 
+```
+<?php
+namespace Vender\Package;
+
+use FooClass;
+use BarClass as Bar;
+use OtherVender\OderPackage\BazClass;
+
+Class Foo extends FooClass implements \ArrayAccess, \Countable
+{
+  
+}
+
+#也可以
+Class Foo extends FooClass implements
+    \ArrayAccess,
+    \Countable
+{
+  
+}
+```
+
 
 
