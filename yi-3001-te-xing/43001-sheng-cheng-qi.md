@@ -10,8 +10,6 @@
 
 总而言之，生成器并没有为PHP添加新功能，不过使用生成器大大简化了某些任务，而且使用的内存更少，如果需要更多功能，例如在数据集中执行后退、快进以及查找功能，最好自己编写实现Iterator接口的类，或者使用PHP标准库（SPL）中某个原生的迭代器。
 
-
-
 ```
 <?php
 
@@ -31,6 +29,7 @@ foreach ($customRange as $i) {
 #结果会报错
 #PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 134217736 bytes) in makeRange.php on line 6
 #Fatal error: Allowed memory size of 134217728 bytes exhausted (tried to allocate 134217736 bytes) in makeRange.php on line 6
+
 
 ```
 
