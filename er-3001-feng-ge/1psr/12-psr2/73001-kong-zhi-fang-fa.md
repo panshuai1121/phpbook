@@ -43,8 +43,23 @@ abstract class ClassName
 如果存在非空的`case`直穿语句，主体里**必须**有类似`// no break`的注释。
 
 ```
-
-
+<?php
+switch ($expr) {
+    case 0:
+        echo "Fist case ,with a break ";
+        break;
+    case 1:
+        echo "second case ,with falls through";
+        // no break
+    case 2:
+    case 3:
+    case 4:
+        echo "third case return instaead of break";
+        return;
+    default:
+        echo "default case";
+        break;  
+}
 ```
 
 
