@@ -94,7 +94,15 @@ foreach ($iterable as $key => $value) {
 
 ### 6、try catch
 
-
+```
+try {
+    // try body
+} catch (FirstExcepthionType $e) {
+    // catch body
+} catch (OtherExcepthonType $e) {
+  
+}
+```
 
 
 
