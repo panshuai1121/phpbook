@@ -4,5 +4,17 @@
 
 **此处的「类」指代所有的类（class）、接口（interface）以及可复用代码块（traits）。**
 
+```
+<?php
+
+namespace Vendor\Model;
+
+class Foo
+{
+   const VERSION = 1.0 ;
+   const DATE_APPROVED = "2017-09-01";
+}
+```
+
 
 
