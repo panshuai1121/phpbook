@@ -6,5 +6,17 @@
 
 PHP5.3 以后的版本 必须使用正式的命名空间。
 
+```
+<?php
+
+namespace Vendor\Model;
+
+class Foo
+{
+  
+}
+
+```
+
 
 
