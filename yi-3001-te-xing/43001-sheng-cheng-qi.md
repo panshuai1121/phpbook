@@ -31,5 +31,22 @@ foreach ($customRange as $i) {
 #Fatal error: Allowed memory size of 134217728 bytes exhausted (tried to allocate 134217736 bytes) in makeRange.php on line 6
 ```
 
+---
+
+```
+#生成器解决问题
+function makeRange($length) {
+   for ($i = 0; $i < $length ;$i++ ) {
+      yield $i;
+   }
+}
+
+$customRange = makeRange(10000000);
+
+foreach ($customRange as $i) {
+   echo $i.PHP_EOL;
+}
+```
+
 
 
