@@ -53,4 +53,6 @@
 * [六、原理](liu-3001-yuan-li.md)
   * [一、字符串的实现](liu-3001-yuan-li/yi-3001-zi-fu-chuan-de-shi-xian.md)
   * [二、数组的实现](liu-3001-yuan-li/er-3001-shu-zu-de-shi-xian.md)
+  * 三、变量的实现
+  * 四、常量的实现
 
