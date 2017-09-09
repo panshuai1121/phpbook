@@ -19,13 +19,12 @@ $a = 0b11111111; // 二进制数字 (等于十进制 255)
 如果给定的一个数超出了[integer](http://php.net/manual/zh/language.types.integer.php)的范围，将会被解释为[float](http://php.net/manual/zh/language.types.float.php)。同样如果执行的运算结果超出了[integer](http://php.net/manual/zh/language.types.integer.php)范围，也会返回[float](http://php.net/manual/zh/language.types.float.php)。
 
 ```
-PHP 中没有整除的运算符。
+#PHP 中没有整除的运算符。
 
-<?php
 var_dump(25/7);         // float(3.5714285714286) 
 var_dump((int) (25/7)); // int(3)
 var_dump(round(25/7));  // float(4) 
-?>
+
 ```
 
 
