@@ -46,6 +46,6 @@
     * [1、过滤输入](si-3001-an-quan/yi-3001-guo-lv-zhuan-yi/13001-guo-lv-shu-ru.md)
     * [2、SQL安全](si-3001-an-quan/yi-3001-guo-lv-zhuan-yi/2sqlan-quan.md)
 * [六、原理](liu-3001-yuan-li.md)
-  * 一、字符串的实现
+  * [一、字符串的实现](liu-3001-yuan-li/yi-3001-zi-fu-chuan-de-shi-xian.md)
   * [二、数组的实现](liu-3001-yuan-li/er-3001-shu-zu-de-shi-xian.md)
 
