@@ -37,7 +37,7 @@ class Foo
 {
     public $bar = <<<EOT
 bar
-EOT;
+EOT; //注意在标示符前不能有任何字符
 }
 $foo = new Foo;
 echo $foo->bar;
