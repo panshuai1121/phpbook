@@ -2,7 +2,7 @@
 
 ---
 
-* 局部变量 
+* 局部变量
 
   变量的作用范围在上下文中，大部分的 PHP 变量只有一个单独的范围。这个单独的范围跨度同样包含了 include 和 require 引入的文件。例如：
 
@@ -10,6 +10,18 @@
 <?php
 $a = 1;
 include 'b.inc';
+?>
+
+
+<?php
+$a = 1; /* global scope */
+
+function Test()
+{
+    echo $a; /* reference to local scope variable */
+}
+
+Test();
 ?>
 ```
 
