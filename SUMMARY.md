@@ -6,7 +6,7 @@
     * [1.1 四种标量](yi-3001-yu-yan-can-kao/13001-lei-xing/11-si-zhong-biao-liang.md)
       * [1.1.1 boolean 布尔值](yi-3001-yu-yan-can-kao/13001-lei-xing/11-si-zhong-biao-liang/111-boolean-bu-er-zhi.md)
       * 1.1.2 整型
-      * 1.1.3 float 浮点型
+      * [1.1.3 float 浮点型](yi-3001-yu-yan-can-kao/13001-lei-xing/11-si-zhong-biao-liang/113-float-fu-dian-xing.md)
       * 1.1.4 string 字符串
 * [二、特性](yi-3001-te-xing.md)
   * [1、命名空间](yi-3001-te-xing/13001-ming-ming-kong-jian.md)
