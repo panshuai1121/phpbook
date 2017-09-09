@@ -18,3 +18,7 @@ $\_FILES;
 
 $\_SERVER;
 
+$\_SESSION;
+
+$\_COOKIE;
+
