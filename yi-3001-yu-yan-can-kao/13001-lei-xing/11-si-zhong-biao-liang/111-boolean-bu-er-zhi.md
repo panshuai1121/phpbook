@@ -22,5 +22,22 @@ if ($show_version) {
 
 当转换bool值，以下为false；
 
+```
+// 1 布尔值 false 本身
+var_dump((bool) false);
+// 2 整型值 0
+var_dump((bool) 0);
+// 3 浮点型值  0.0
+var_dump((bool) 0.0);
+// 4 空字符串，以及字符串 0
+var_dump((bool) "");
+var_dump((bool) '0');
+// 5 不包括任何元素的数组
+var_dump((bool) []);
+// 6 特殊类型  NULL
+var_dump((bool) NULL);
+// 7 空标记生成的simpleXML 对象
+```
+
 
 
