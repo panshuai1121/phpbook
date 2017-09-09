@@ -32,6 +32,17 @@
 
 #### 3、heredoc （解析）
 
+```
+class Foo
+{
+    public $bar = <<<EOT
+bar
+EOT;
+}
+$foo = new Foo;
+echo $foo->bar;
+```
+
 #### 4、nowdoc  （不解析）
 
 
