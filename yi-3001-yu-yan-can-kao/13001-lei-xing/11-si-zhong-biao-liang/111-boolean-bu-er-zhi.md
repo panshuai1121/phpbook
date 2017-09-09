@@ -18,7 +18,7 @@ if ($show_version) {
 
 ### 转换布尔值
 
-
+当转换为 boolean的时候 可以使用（bool） \(boolean\) 来强制转换。但很多情况不用强制转换，控制流程结构需要一个boolea参数时 boolean，该值会自动转换。
 
 
 
