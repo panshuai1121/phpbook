@@ -31,5 +31,7 @@ $array = [
 
 布尔值也会被转换成整型，即键名true 会被转换成1 而false 会被转换成0
 
+null 会被转换成空字符串，即键名null 会被存储成“”
 
+数组和对象不能用作键名 坚持这么做会导致illega offset type
 
