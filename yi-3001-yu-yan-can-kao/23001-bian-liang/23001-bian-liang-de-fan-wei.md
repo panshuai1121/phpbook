@@ -29,6 +29,8 @@ Test();
 
 ### 全局变量 global
 
+
+
 ```
 <?php
 
@@ -41,6 +43,16 @@ function Sum() {
 }
 Sum();
 echo $b; #结果3
+
+#另外一种
+$a = 1;
+$b = 2;
+
+function Sum() {
+    $GLOBALS['b'] = $GLOBALS['a'] + $GLOBALS['b'];
+}
+Sum();
+echo $b;
 ```
 
 
