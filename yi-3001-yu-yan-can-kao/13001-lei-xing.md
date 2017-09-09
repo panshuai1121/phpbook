@@ -13,5 +13,10 @@
 * object （对象）
 * callable（可调用）
 
+最后两种特殊类型：
+
+* resource （资源）
+* NULL （无类型）
+
 
 
