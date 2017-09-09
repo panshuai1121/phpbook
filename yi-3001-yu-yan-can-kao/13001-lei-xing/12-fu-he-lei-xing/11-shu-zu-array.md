@@ -4,5 +4,19 @@ PHP 中的数组实际上是一个有序映射 .映射是一种把values 关联�
 
 **定义数组 array\(\);**
 
+```
+<?php
+
+$array = array(
+    "foo" => "bar",
+    "bar" => "foo",
+);
+
+$array = [
+    "foo" => "bar",
+    "bar" => "foo",
+];
+```
+
 
 
