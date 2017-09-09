@@ -12,6 +12,9 @@
       * [1.1 数组 array](yi-3001-yu-yan-can-kao/13001-lei-xing/12-fu-he-lei-xing/11-shu-zu-array.md)
       * [1.2 object](yi-3001-yu-yan-can-kao/13001-lei-xing/12-fu-he-lei-xing/12-object.md)
       * 1.3 callback callable
+    * [1.3 特殊类型](yi-3001-yu-yan-can-kao/13001-lei-xing/13-te-shu-lei-xing.md)
+      * 1.1 resource
+      * [1.2 NULL](yi-3001-yu-yan-can-kao/13001-lei-xing/13-te-shu-lei-xing/12-null.md)
 * [二、特性](yi-3001-te-xing.md)
   * [1、命名空间](yi-3001-te-xing/13001-ming-ming-kong-jian.md)
   * [2、接口](yi-3001-te-xing/23001-jie-kou.md)
