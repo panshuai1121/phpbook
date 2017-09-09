@@ -47,5 +47,7 @@ echo $foo->bar;
 
 #### 4、nowdoc  （不解析）
 
+就象 heredoc 结构类似于双引号字符串，Nowdoc 结构是类似于单引号字符串的。Nowdoc 结构很象 heredoc 结构，但是 nowdoc 中
 
+_不进行解析操作_
 
