@@ -16,6 +16,7 @@
       * [1.1 resource](yi-3001-yu-yan-can-kao/13001-lei-xing/13-te-shu-lei-xing/11-resource.md)
       * [1.2 NULL](yi-3001-yu-yan-can-kao/13001-lei-xing/13-te-shu-lei-xing/12-null.md)
   * [2、变量](yi-3001-yu-yan-can-kao/23001-bian-liang.md)
+    * [1、引用](yi-3001-yu-yan-can-kao/23001-bian-liang/13001-yin-yong.md)
   * [3、常量](yi-3001-yu-yan-can-kao/33001-chang-liang.md)
 * [二、特性](yi-3001-te-xing.md)
   * [1、命名空间](yi-3001-te-xing/13001-ming-ming-kong-jian.md)
