@@ -4,8 +4,6 @@
 
 指定布尔值，通常使用TRUE或FALSE。两个都区分大小写
 
-
-
 ```
 <?php
 
@@ -14,9 +12,13 @@ if ($action == "show_version") {
 }
 
 if ($show_version) {
-  
+
 }
 ```
+
+### 转换布尔值
+
+
 
 
 
