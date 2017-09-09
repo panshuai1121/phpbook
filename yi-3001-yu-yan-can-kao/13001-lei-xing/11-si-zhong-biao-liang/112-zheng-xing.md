@@ -18,3 +18,5 @@ $a = 0b11111111; // 二进制数字 (等于十进制 255)
 
 如果给定的一个数超出了[integer](http://php.net/manual/zh/language.types.integer.php)的范围，将会被解释为[float](http://php.net/manual/zh/language.types.float.php)。同样如果执行的运算结果超出了[integer](http://php.net/manual/zh/language.types.integer.php)范围，也会返回[float](http://php.net/manual/zh/language.types.float.php)。
 
+
+
