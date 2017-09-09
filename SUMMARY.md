@@ -30,4 +30,6 @@
     * [1.4 PSR4](er-3001-feng-ge/1psr/14-psr4.md)
     * [1.5 PSR6](er-3001-feng-ge/1psr/15-psr5.md)
     * 1.6 PSR7
+* [三、组件](san-3001-zu-jian.md)
+  * [一、Composer](san-3001-zu-jian/yi-3001-zu-jian.md)
 
