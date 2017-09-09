@@ -20,5 +20,7 @@ if ($show_version) {
 
 当转换为 boolean的时候 可以使用（bool） \(boolean\) 来强制转换。但很多情况不用强制转换，控制流程结构需要一个boolea参数时 boolean，该值会自动转换。
 
+当转换bool值，以下为false；
+
 
 
