@@ -4,8 +4,6 @@
 
 ![](http://upload-images.jianshu.io/upload_images/3012926-1f55932b7bdc86a6.png?imageMogr2/auto-orient/strip|imageView2/2/w/1240)
 
-
-
 数组本质就是一个hashtable结构，左侧的0~nTablemask便是hash下标，而后面有一个双向链表，便是我们通常所说的hash冲突的链地址法。
 
 而绿色的双向链表，则是foreach遍历用的，这个地方用双向链表，主要是为了逆序访问来用的，遍历的时候，就是从pListHead开始不断的next便可以遍历所有的元素。这样要比下标遍历hashtable快得多。
