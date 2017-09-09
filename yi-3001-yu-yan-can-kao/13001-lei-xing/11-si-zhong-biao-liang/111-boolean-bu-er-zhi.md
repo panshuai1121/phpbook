@@ -4,3 +4,19 @@
 
 指定布尔值，通常使用TRUE或FALSE。两个都区分大小写
 
+
+
+```
+<?php
+
+if ($action == "show_version") {
+    echo "The version is 1.23";
+}
+
+if ($show_version) {
+  
+}
+```
+
+
+
