@@ -40,7 +40,7 @@ function Sum() {
     $b = $a + $b;
 }
 Sum();
-echo $b;
+echo $b; #结果3
 ```
 
 
