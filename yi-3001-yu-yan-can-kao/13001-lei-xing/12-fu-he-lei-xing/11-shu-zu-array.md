@@ -1,5 +1,7 @@
 ## 数组
 
+PHP 中的数组实际上是一个有序映射
+
 
 
 ![](http://upload-images.jianshu.io/upload_images/3012926-1f55932b7bdc86a6.png?imageMogr2/auto-orient/strip|imageView2/2/w/1240)
