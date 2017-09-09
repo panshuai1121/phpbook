@@ -4,21 +4,15 @@
 
 超全局变量：
 
-$GLOBALS;
+* $GLOBALS;
+* $\_POST;
+* $\_GET;
+* $\_REQUEST;
+* $\_ENV;
+* $\_FILES;
+* $\_SERVER;
+* $\_SESSION;
+* $\_COOKIE;
 
-$\_POST;
 
-$\_GET;
-
-$\_REQUEST;
-
-$\_ENV;
-
-$\_FILES;
-
-$\_SERVER;
-
-$\_SESSION;
-
-$\_COOKIE;
 
