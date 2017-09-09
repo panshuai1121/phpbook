@@ -74,5 +74,26 @@ $arr = [
 ];
 ```
 
+```
+<?php
+
+function getArray() {
+    return $arr = [
+        1,
+        3,
+        5,
+        7 => [
+            0
+        ],
+        9
+    ];
+}
+
+$tmp = getArray();
+$secondElement = $tmp[1];
+
+list(,$secondElement) = getArray();
+```
+
 
 
