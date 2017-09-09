@@ -10,6 +10,7 @@
       * [1.1.4 string 字符串](yi-3001-yu-yan-can-kao/13001-lei-xing/11-si-zhong-biao-liang/114-string-zi-fu-chuan.md)
     * [1.2 复合类型](yi-3001-yu-yan-can-kao/13001-lei-xing/12-fu-he-lei-xing.md)
       * [1.1 数组 array](yi-3001-yu-yan-can-kao/13001-lei-xing/12-fu-he-lei-xing/11-shu-zu-array.md)
+      * [1.2 object](yi-3001-yu-yan-can-kao/13001-lei-xing/12-fu-he-lei-xing/12-object.md)
 * [二、特性](yi-3001-te-xing.md)
   * [1、命名空间](yi-3001-te-xing/13001-ming-ming-kong-jian.md)
   * [2、接口](yi-3001-te-xing/23001-jie-kou.md)
