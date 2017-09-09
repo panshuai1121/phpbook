@@ -26,5 +26,9 @@ PHP 需要在每个语句后用分号结束指令。一段 PHP 代码中的结�
 <?php echo 'We omitted the last closing tag';
 ```
 
+### 3、注释
+
+
+
 
 
