@@ -12,9 +12,7 @@
 
 2、双引号
 
-3、heredoc
+3、heredoc （解析）
 
-4、nowdoc
-
-
+4、nowdoc  （不解析）
 
