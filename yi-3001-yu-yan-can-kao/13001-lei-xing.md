@@ -20,5 +20,21 @@
 
 如果查看某个表达式的值 和类型 ，用var\_dump函数
 
+```
+<?php
+$aBool = true;
+$aStr = "foo";
+$aStr2 = 'foo';
+$aInt = 12;
+//输出类型
+echo gettype($aBool);
+//打印类型
+var_dump($aStr);
+//判断是否是整型
+if (is_int($aInt)) {
+    $aInt += 4;
+}
+```
+
 
 
