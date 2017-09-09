@@ -3,7 +3,9 @@
 要创建一个对象 object ，使用 new 来实例化一个类；
 
 ```
-namespace Test;
+<?php 
+
+namespace Test; //命名空间
 
 class Test
 {
