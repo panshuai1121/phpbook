@@ -6,5 +6,7 @@
 
 _\[a-zA-Z\_\x7f-\xff\]\[a-zA-Z0-9\_\x7f-\xff\]\*\_
 
-可以用define 和 const 关键字来定义常量，一个常量一旦被定义，就不能再改变或者取消定义
+可以用define 和 const 关键字来定义常量，一个常量一旦被定义，就不能再改变或者取消定义，可以用[constant\(\)](http://php.net/manual/zh/function.constant.php) 来获取常量的值
+
+
 
