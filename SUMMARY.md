@@ -93,6 +93,7 @@
     * [8、ltrim](qi-3001-han-shu/er-3001-zi-fu-chuan-han-shu/8ltrim.md)
     * [9、rtrim](qi-3001-han-shu/er-3001-zi-fu-chuan-han-shu/9rtrim.md)
     * [10、chop](qi-3001-han-shu/er-3001-zi-fu-chuan-han-shu/10chop.md)
+    * [11、chr](qi-3001-han-shu/er-3001-zi-fu-chuan-han-shu/11chr.md)
   * 三、数组函数
 * [八、配置](ba-3001-pei-zhi.md)
   * [一、PHP.ini](ba-3001-pei-zhi/yi-3001-php-ini.md)
