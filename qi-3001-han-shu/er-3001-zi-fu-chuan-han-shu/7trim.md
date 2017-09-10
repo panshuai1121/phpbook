@@ -19,9 +19,13 @@ string trim ( string $str [, string $character_mask = " \t\n\r\0\x0B" ] )
 
 参数：
 
-$str 需要处理的字符串
+$str 
 
-$character\_mask **可选** 
+需要处理的字符串
+
+$character\_mask 
+
+一般要列出所有希望过滤的字符，也可以使用..列出一个字符范围
 
 返回值：
 
