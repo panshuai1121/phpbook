@@ -25,3 +25,29 @@ character\_mask : 你也可以指定想要删除的字符，简单地列出你�
 
 
 
+```
+$text = "\t\tThese are a few words :) ...  ";
+$binary = "\x09Example string\x0A";
+$hello  = "Hello World";
+var_dump($text, $binary, $hello);
+
+print "\n";
+
+
+$trimmed = ltrim($text);
+var_dump($trimmed);
+
+$trimmed = ltrim($text, " \t.");
+var_dump($trimmed);
+
+$trimmed = ltrim($hello, "Hdle");
+var_dump($trimmed);
+
+// 删除 $binary 开头的 ASCII 控制字符
+// (从 0 到 31，包括 0 和 31)
+$clean = ltrim($binary, "\x00..\x1F");
+var_dump($clean);
+```
+
+
+
