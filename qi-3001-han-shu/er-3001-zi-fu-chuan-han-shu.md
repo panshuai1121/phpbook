@@ -4,11 +4,11 @@
 
 语法：
 
-
+```
+string addcslashes ( string $str , string $charlist )
+```
 
 参数：
-
-
 
 返回值：
 
