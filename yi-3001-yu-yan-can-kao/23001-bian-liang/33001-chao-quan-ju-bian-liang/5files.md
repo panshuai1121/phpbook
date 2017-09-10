@@ -38,5 +38,7 @@ UPLOAD\_ERR\_OK ：为0的时候代表没有错误 文件上传成功
 
 UPLOAD\_ERR\_INISIZE ：其值为1，上传文件超过了PHP.ini中的 upload\_max\_\_filesize 选项的限制
 
+**`UPLOAD_ERR_FORM_SIZE ：其值为2，代表超过了html表单中的 `**_MAX\_FILE\_SIZE_
+
 
 
