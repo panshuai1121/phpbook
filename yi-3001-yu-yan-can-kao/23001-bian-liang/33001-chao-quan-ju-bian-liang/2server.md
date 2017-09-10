@@ -27,6 +27,8 @@ HTTP_CONNECTION：keep-alive HTTP的链接方式，持久方式
 
 HTTP_HOST：请求的主机地址
 
+SERVER_ADDR：当前脚本运行的服务器地址
+
 
 ```
 
