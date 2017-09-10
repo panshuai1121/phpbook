@@ -10,6 +10,8 @@ string ltrim ( string $str [, string $character_mask ] )
 
 str 输入的字符串
 
+character\_mask : 你也可以指定想要删除的字符，简单地列出你想要删除的所有字符即可
+
 返回值：
 
 此函数返回字符串`str`去除最左边空白字符后的结果。**如果不指定第二个参数**，l**trim\(\)  **将去除这些字符：
