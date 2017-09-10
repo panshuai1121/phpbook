@@ -8,5 +8,7 @@ chr 返回指定的字符
 string chr ( int $ascii )
 ```
 
+返回相应ascii 所指定的单个字符。此函数与 ord互补。
+
 
 
