@@ -2,7 +2,9 @@
 
 通过 HTTP POST 方式上传到当前脚本的项目的数组
 
+文件被上传后，默认地会被储存到服务端的默认临时目录中，除非 php.ini 中的 [upload\_tmp\_dir](http://php.net/manual/zh/ini.core.php#ini.upload-tmp-dir)
 
+设置为其它的路径
 
 > [$\_FILES\['userfile'\]\['name'\]](http://php.net/manual/zh/reserved.variables.files.php)
 >
