@@ -87,7 +87,7 @@
     * [2、stripcslashes](qi-3001-han-shu/er-3001-zi-fu-chuan-han-shu/2stripcslashes.md)
     * [3、addslashes ](qi-3001-han-shu/er-3001-zi-fu-chuan-han-shu/3addslaches.md)
     * [4、stripslashes](qi-3001-han-shu/er-3001-zi-fu-chuan-han-shu/4stripslashes.md)
-    * 5、bin2hex
+    * [5、bin2hex](qi-3001-han-shu/er-3001-zi-fu-chuan-han-shu/5bin2hex.md)
     * 6、hex2bin
   * 三、数组函数
 * [八、配置](ba-3001-pei-zhi.md)
