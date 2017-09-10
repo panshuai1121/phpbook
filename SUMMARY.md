@@ -24,6 +24,7 @@
       * [3、$\_GET](yi-3001-yu-yan-can-kao/23001-bian-liang/33001-chao-quan-ju-bian-liang/3get.md)
       * [4、$\_POST](yi-3001-yu-yan-can-kao/23001-bian-liang/33001-chao-quan-ju-bian-liang/4post.md)
       * [5、$\_FILES](yi-3001-yu-yan-can-kao/23001-bian-liang/33001-chao-quan-ju-bian-liang/5files.md)
+        * [一、PUT](yi-3001-yu-yan-can-kao/23001-bian-liang/33001-chao-quan-ju-bian-liang/5files/yi-3001-put.md)
   * [3、常量](yi-3001-yu-yan-can-kao/33001-chang-liang.md)
 * [二、特性](yi-3001-te-xing.md)
   * [1、命名空间](yi-3001-te-xing/13001-ming-ming-kong-jian.md)
