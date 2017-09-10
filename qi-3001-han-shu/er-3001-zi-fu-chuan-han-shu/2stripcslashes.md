@@ -18,7 +18,6 @@ $str addcslashes转义后的字符串
 
 ```
 $str = "My na me is Phper, i'm s t udy .. ";
-
 $aStr = addcslashes($str,'A..z');
 echo stripcslashes($aStr);
 ```
