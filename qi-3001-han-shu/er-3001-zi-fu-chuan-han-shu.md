@@ -10,7 +10,13 @@ string addcslashes ( string $str , string $charlist )
 
 参数：
 
+$str: 需要转义的字符串
+
+$charlist: 符合转义字符串的规则，区间，需要注意的是，需要转移内容的范围 比如说 出现\n \t ，奖以C语言风格转换
+
 返回值：
+
+返回转义后的字符串
 
 ```
 $str = "My name is Phper, i'm study .. ";
