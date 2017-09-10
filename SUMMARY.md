@@ -84,6 +84,7 @@
   * [一、变量函数](qi-3001-han-shu/yi-3001-bian-liang-han-shu.md)
   * [二、字符串函数](qi-3001-han-shu/er-3001-zi-fu-chuan-han-shu.md)
     * [1、addcslashes](qi-3001-han-shu/er-3001-zi-fu-chuan-han-shu/1addcslashes.md)
+    * [2、stripcslashes](qi-3001-han-shu/er-3001-zi-fu-chuan-han-shu/2stripcslashes.md)
   * 三、数组函数
 * [八、配置](ba-3001-pei-zhi.md)
   * [一、PHP.ini](ba-3001-pei-zhi/yi-3001-php-ini.md)
