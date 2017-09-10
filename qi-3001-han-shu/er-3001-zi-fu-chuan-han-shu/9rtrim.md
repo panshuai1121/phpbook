@@ -2,7 +2,9 @@
 
 语法：
 
-
+```
+string rtrim ( string $str [, string $character_mask ] )
+```
 
 此函数返回字符串`str`去除最右边空白字符后的结果。**如果不指定第二个参数**，r**trim\(\)  **将去除这些字符：
 
