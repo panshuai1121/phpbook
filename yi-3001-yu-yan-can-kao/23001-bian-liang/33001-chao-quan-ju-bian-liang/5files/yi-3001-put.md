@@ -21,5 +21,19 @@ fclose($putdata);
 ?>
 ```
 
+```
+PUT /path/filename.html HTTP/1.1
+```
+
+这通常意味着远程客户端会将其中的/path/filename.html存储到 web 目录树。让 Apache 或者 PHP 自动允许所有人覆盖 web 目录树下的任何文件显然是很不明智的。因此，要处理类似的请求，必须先告诉 web 服务器需要用特定的 PHP 脚本来处理该请求。在 Apache 下，可以用_Script_选项来设置。它可以被放置到 Apache 配置文件中几乎所有的位置。通常我们把它放置在 &lt;Directory&gt; 区域或者 &lt;Virtualhost&gt; 区域。可以用如下一行来完成该设置：
+
+```
+Script PUT /put.php
+
+```
+
+这将告诉 Apache 将所有对 URI 的 PUT 请求全部发送到 put.php 脚本，这些 URI 必须和 PUT 命令中的内容相匹配
+
+  
 
 
