@@ -13,6 +13,8 @@ REQUEST_METHOD：请求方法
 
 SCRIPT_FILENAME：当前脚本的绝对路径
 
+HTTP_ACCEPT_LANGUAGE：浏览器语言
+
 
 ```
 
