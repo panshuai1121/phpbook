@@ -8,6 +8,10 @@ _\[a-zA-Z\_\x7f-\xff\]\[a-zA-Z0-9\_\x7f-\xff\]\*\_
 
 可以用define 和 const 关键字来定义常量，一个常量一旦被定义，就不能再改变或者取消定义，可以用[constant\(\)](http://php.net/manual/zh/function.constant.php) 来获取常量的值
 
+**Note**:
+
+和使用[define\(\)](http://php.net/manual/zh/function.define.php)来定义常量相反的是，使用_const_关键字定义常量必须处于最顶端的作用区域，因为用此方法是在编译时定义的。这就意味着不能在函数内，循环内以及_if_语句之内用_const_来定义常量。
+
 ### 常量和变量有如下不同：
 
 * 常量前面没有美元符号 _$_；
