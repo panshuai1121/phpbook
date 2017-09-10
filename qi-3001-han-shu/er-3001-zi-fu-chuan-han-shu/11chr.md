@@ -21,6 +21,8 @@ ascii 码
 ```
 $str = "The string ends in escape: ";
 $str .= chr(27); /* 在 $str 后边增加换码符 */
+
+$str = sprintf("The string ends in escape: %c", 27);
 ```
 
 
