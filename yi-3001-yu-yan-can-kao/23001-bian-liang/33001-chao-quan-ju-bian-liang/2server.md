@@ -29,6 +29,8 @@ HTTP_HOST：请求的主机地址
 
 SERVER_ADDR：当前脚本运行的服务器地址
 
+SERVER_NAME：脚本所在的主机名
+
 
 ```
 
