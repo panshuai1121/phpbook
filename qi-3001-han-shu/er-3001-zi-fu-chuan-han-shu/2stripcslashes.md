@@ -10,7 +10,9 @@ string stripcslashes ( string $str )
 
 参数：
 
-
+$str addcslashes转义后的字符串
 
 返回：
+
+转义后的字符串
 
