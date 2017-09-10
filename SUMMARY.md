@@ -89,7 +89,7 @@
     * [4、stripslashes](qi-3001-han-shu/er-3001-zi-fu-chuan-han-shu/4stripslashes.md)
     * [5、bin2hex](qi-3001-han-shu/er-3001-zi-fu-chuan-han-shu/5bin2hex.md)
     * [6、hex2bin](qi-3001-han-shu/er-3001-zi-fu-chuan-han-shu/6hex2bin.md)
-    * 7、trim
+    * [7、trim](qi-3001-han-shu/er-3001-zi-fu-chuan-han-shu/7trim.md)
     * 8、ltrim
     * 9、rtrim
     * 10.chop
