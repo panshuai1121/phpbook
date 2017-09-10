@@ -19,5 +19,9 @@ string rtrim ( string $str [, string $character_mask ] )
 
 参数：
 
+str ：输入的字符串
+
+character\_mask 可以指定想要删除的字符列表。简单地列出你想要删除的全部字符。使用_.._格式，可以指定一个范围。
+
 返回值：
 
