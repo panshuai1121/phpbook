@@ -6,5 +6,9 @@ $\_GET 用于通过url 传递过来的变量数组，Superglobal”也称为自�
 echo 'Hello'.$_GET['a'];
 ```
 
+### magic\_quotes\_gpc
+
+当 magic\_quotes 为 on，所有的 ' \(单引号\)、" \(双引号\)、\（反斜杠）和 NUL's 被一个反斜杠自动转义。
+
 
 
