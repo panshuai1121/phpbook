@@ -11,10 +11,10 @@ QUERY_STRING：查询的字符串
 
 REQUEST_METHOD：请求方法
 
+SCRIPT_FILENAME：当前脚本的绝对路径
+
 
 ```
-
-
 
 
 
