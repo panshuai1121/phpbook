@@ -22,3 +22,33 @@ _\[a-zA-Z\_\x7f-\xff\]\[a-zA-Z0-9\_\x7f-\xff\]\*\_
 
 
 
+**\(1\).const用于类成员变量的定义，一经定义，不可修改。define不可用于类成员变量的定义，可用于全局常量。  
+\(2\).const可在类中使用，define不能。  
+\(3\).const不能在条件语句中定义常量。**  
+例如：  
+if \(...\){  
+const FOO = 'BAR'; // 无效的invalid  
+}   
+if \(...\) {  
+define\('FOO', 'BAR'\); // 有效的valid  
+}  
+**\(4\).const采用一个普通的常量名称，define可以采用表达式作为名称。**  
+const FOO = 'BAR';   
+for \($i = 0; $i &lt; 32; ++$i\) {  
+define\('BIT\_' . $i, 1 &lt;&lt; $i\);  
+}  
+**\(5\).const只能接受静态的标量，而define可以采用任何表达式。**  
+例如：  
+const BIT\_5 = 1 &lt;&lt; 5; // 无效的invalid   
+define\('BIT\_5', 1 &lt;&lt; 5\); // 有效的valid  
+**\(6\).const定义的常量时大小写敏感的，而define可通过第三个参数（为true表示大小写不敏感）来指定大小写是否敏感。**  
+例如：  
+define\('FOO', 'BAR', true\);   
+echo FOO; // BAR  
+echo foo; // BAR
+
+  
+
+
+
+
