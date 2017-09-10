@@ -31,3 +31,10 @@ $character\_mask
 
 过滤后的字符串
 
+```
+$str = " \r my name is xiao ming  ai ya \t sssfi \n aiyou\n\r\t"; #注意单引号不解析
+echo trim($str,"a");
+```
+
+
+
