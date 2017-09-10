@@ -19,7 +19,9 @@ string trim ( string $str [, string $character_mask = " \t\n\r\0\x0B" ] )
 
 参数：
 
+$str 需要处理的字符串
 
+$character\_mask **可选** 
 
 返回值：
 
