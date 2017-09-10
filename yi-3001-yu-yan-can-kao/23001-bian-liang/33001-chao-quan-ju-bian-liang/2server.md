@@ -15,6 +15,8 @@ SCRIPT_FILENAME：当前脚本的绝对路径
 
 HTTP_ACCEPT_LANGUAGE：浏览器语言
 
+HTTP_ACCEPT_ENCODING：浏览器支持的能够接受的编码类型
+
 
 ```
 
