@@ -18,3 +18,11 @@ string : 一个字符
 
 返回整型的 ASCii值
 
+```
+$str = "a";
+$ascii_num =  ord($str);
+echo chr($ascii_num);
+```
+
+
+
