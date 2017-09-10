@@ -92,6 +92,7 @@
     * 7、trim
     * 8、ltrim
     * 9、rtrim
+    * 10.chop
   * 三、数组函数
 * [八、配置](ba-3001-pei-zhi.md)
   * [一、PHP.ini](ba-3001-pei-zhi/yi-3001-php-ini.md)
