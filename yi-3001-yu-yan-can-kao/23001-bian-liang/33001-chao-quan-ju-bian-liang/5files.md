@@ -29,7 +29,7 @@
 | 名字 | 默认 | 可修改的范围 | 作用 |
 | :--- | :--- | :--- | :--- |
 | file\_uploads; | 1 | PHP\_INI\_SYSTEM | 是否允许HTTP上传， |
-| upload\_tmp\_dir |  |  |  |
+| upload\_tmp\_dir | NULL | PHP\_INI\_SYSTEM | 用户默认上传文件的临时目录，如果没有设置，使用PHP的默认值 |
 |  |  |  |  |
 
 
