@@ -18,3 +18,10 @@ ascii 码
 
 返回规定的字符
 
+```
+$str = "The string ends in escape: ";
+$str .= chr(27); /* 在 $str 后边增加换码符 */
+```
+
+
+
