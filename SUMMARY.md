@@ -82,7 +82,8 @@
   * 四、常量的实现
 * [七、函数](qi-3001-han-shu.md)
   * 一、变量函数
-  * 二、字符串函数
+  * [二、字符串函数](qi-3001-han-shu/er-3001-zi-fu-chuan-han-shu.md)
+    * 1、addcslashes
   * 三、数组函数
 * [八、配置](ba-3001-pei-zhi.md)
   * [一、PHP.ini](ba-3001-pei-zhi/yi-3001-php-ini.md)
