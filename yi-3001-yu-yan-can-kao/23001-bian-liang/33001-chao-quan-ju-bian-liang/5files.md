@@ -32,5 +32,7 @@
 | upload\_max\_filesize | 2M |  | 上传文件的最大大小 |
 | max\_file\_uploads | 20 |  | 允许最大上传文件数 |
 
+### 常见的错误
+
 
 

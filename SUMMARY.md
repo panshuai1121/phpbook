@@ -70,5 +70,5 @@
   * 二、字符串函数
   * 三、数组函数
 * [八、配置](ba-3001-pei-zhi.md)
-  * 一、PHP.ini
+  * [一、PHP.ini](ba-3001-pei-zhi/yi-3001-php-ini.md)
 
