@@ -27,5 +27,30 @@ character\_mask 可以指定想要删除的字符列表。简单地列出你想�
 
 处理后的字符串
 
+```
+<?php
+
+$text = "\t\tThese are a few words :) ...  ";
+$binary = "\x09Example string\x0A";
+$hello  = "Hello World";
+var_dump($text, $binary, $hello);
+
+print "\n";
+
+$trimmed = rtrim($text);
+var_dump($trimmed);
+
+$trimmed = rtrim($text, " \t.");
+var_dump($trimmed);
+
+$trimmed = rtrim($hello, "Hdle");
+var_dump($trimmed);
+
+// 删除 $binary 末端的 ASCII 码控制字符
+// (包括 0 - 31)
+$clean = rtrim($binary, "\x00..\x1F");
+var_dump($clean);
+```
+
 
 
