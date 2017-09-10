@@ -31,7 +31,9 @@ SERVER_ADDR：当前脚本运行的服务器地址
 
 SERVER_NAME：脚本所在的主机名
 
+'REMOTE_ADDR'：浏览当前页面的用户的 IP 地址。
 
+'REMOTE_HOST'浏览当前页面的用户的主机名。DNS 反向解析不依赖于用户的 REMOTE_ADDR。
 ```
 
 
