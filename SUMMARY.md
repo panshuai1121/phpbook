@@ -27,6 +27,19 @@
         * [一、PUT](yi-3001-yu-yan-can-kao/23001-bian-liang/33001-chao-quan-ju-bian-liang/5files/yi-3001-put.md)
     * [4、可变变量](yi-3001-yu-yan-can-kao/23001-bian-liang/43001-ke-bian-bian-liang.md)
   * [3、常量](yi-3001-yu-yan-can-kao/33001-chang-liang.md)
+  * [4、运算符](yi-3001-yu-yan-can-kao/43001-yun-suan-fu.md)
+    * 1、运算符的优先级
+    * 2、算数运算符
+    * 3、赋值运算符
+    * 4、位运算符
+    * 5、比较运算符
+    * 6、错误控制运算符
+    * 7、执行运算符
+    * 8、递增 、递减运算符
+    * 9、逻辑运算符
+    * 10、字符串运算符
+    * 11、数组运算符
+    * 12、类型运算符
 * [二、特性](yi-3001-te-xing.md)
   * [1、命名空间](yi-3001-te-xing/13001-ming-ming-kong-jian.md)
   * [2、接口](yi-3001-te-xing/23001-jie-kou.md)
