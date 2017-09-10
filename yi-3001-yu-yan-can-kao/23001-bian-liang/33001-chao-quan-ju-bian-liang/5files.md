@@ -34,13 +34,13 @@
 
 ### 常见的错误
 
-* UPLOAD\_ERR\_OK ：为0的时候代表没有错误 文件上传成功
-* UPLOAD\_ERR\_INISIZE ：其值为1，上传文件超过了PHP.ini中的 upload\_max\_\_filesize 选项的限制
-* UPLOAD\_ERR\_FORM\_SIZE ：其值为2，代表超过了html表单中的MAX\_FILE\_SIZE
-* UPLOAD\_ERR\_PARTIAL：其值为 3，文件只有部分被上传。
-* UPLOAD\_ERR\_NO\_FILE：其值为 4，没有文件被上传。
-* UPLOAD\_ERR\_NO\_TMP\_DIR：其值为 6，找不到临时文件夹。PHP 4.3.10 和 PHP 5.0.3 引进。
-* UPLOAD\_ERR\_CANT\_WRITE：其值为 7，文件写入失败。PHP 5.1.0 引进。
+* **UPLOAD\_ERR\_OK** ：为0的时候代表没有错误 文件上传成功
+* **UPLOAD\_ERR\_INISIZE** ：其值为1，上传文件超过了PHP.ini中的 upload\_max\_\_filesize 选项的限制
+* **UPLOAD\_ERR\_FORM\_SIZE** ：其值为2，代表超过了html表单中的MAX\_FILE\_SIZE
+* **UPLOAD\_ERR\_PARTIAL**：其值为 3，文件只有部分被上传。
+* **UPLOAD\_ERR\_NO\_FILE**：其值为 4，没有文件被上传。
+* **UPLOAD\_ERR\_NO\_TMP\_DIR**：其值为 6，找不到临时文件夹。PHP 4.3.10 和 PHP 5.0.3 引进。
+* **UPLOAD\_ERR\_CANT\_WRITE**：其值为 7，文件写入失败。PHP 5.1.0 引进。
 
 
 
