@@ -2,9 +2,13 @@
 
 语法：
 
+```
+string ltrim ( string $str [, string $character_mask ] )
+```
+
 参数：
 
-
+str 输入的字符串
 
 返回值：
 
