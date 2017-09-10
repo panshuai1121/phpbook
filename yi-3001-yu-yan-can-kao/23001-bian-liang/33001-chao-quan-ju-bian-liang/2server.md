@@ -17,6 +17,8 @@ HTTP_ACCEPT_LANGUAGE：浏览器语言
 
 HTTP_ACCEPT_ENCODING：浏览器支持的能够接受的编码类型
 
+HTTP_ACCEPT：浏览器接受的类型列表
+
 
 ```
 
