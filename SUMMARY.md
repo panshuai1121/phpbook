@@ -21,6 +21,7 @@
     * [3、超全局变量](yi-3001-yu-yan-can-kao/23001-bian-liang/33001-chao-quan-ju-bian-liang.md)
       * [1、$GLOBALS](yi-3001-yu-yan-can-kao/23001-bian-liang/33001-chao-quan-ju-bian-liang/1-globals.md)
       * [2、$\_SERVER](yi-3001-yu-yan-can-kao/23001-bian-liang/33001-chao-quan-ju-bian-liang/2server.md)
+      * [3、$\_GET](yi-3001-yu-yan-can-kao/23001-bian-liang/33001-chao-quan-ju-bian-liang/3get.md)
   * [3、常量](yi-3001-yu-yan-can-kao/33001-chang-liang.md)
 * [二、特性](yi-3001-te-xing.md)
   * [1、命名空间](yi-3001-te-xing/13001-ming-ming-kong-jian.md)
