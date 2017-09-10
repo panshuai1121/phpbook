@@ -18,5 +18,5 @@
 
 7、rtrim — 删除字符串末端的空白字符（或者其他字符）
 
-8、chop — rtrim 的别名
+9、chop — rtrim 的别名
 
