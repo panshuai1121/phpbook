@@ -24,6 +24,10 @@ HTTP_USER_AGENT：检查浏览页面的访问者在用什么操作系统
 HTTP_UPGRADE_INSECURE_REQUESTS：是否过渡https
 
 HTTP_CONNECTION：keep-alive HTTP的链接方式，持久方式
+
+HTTP_HOST：请求的主机地址
+
+
 ```
 
 
