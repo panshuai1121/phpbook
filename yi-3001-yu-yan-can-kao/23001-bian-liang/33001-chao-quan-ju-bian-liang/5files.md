@@ -29,7 +29,7 @@
 | file\_uploads; | 1 | PHP\_INI\_SYSTEM | 是否允许HTTP上传， |
 | upload\_tmp\_dir | NULL | PHP\_INI\_SYSTEM | 用户默认上传文件的临时目录，如果没有设置，使用PHP的默认值 |
 | max\_input\_vars | 1000 | PHP\_INI\_PERDIR | 上传的长度限制 |
-| upload\_max\_filesize | 2M |  |  |
+| upload\_max\_filesize | 2M |  | 上传文件的最大大小 |
 | max\_file\_uploads | 20 |  | 允许最大上传文件数 |
 
 
