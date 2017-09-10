@@ -19,6 +19,8 @@ HTTP_ACCEPT_ENCODING：浏览器支持的能够接受的编码类型
 
 HTTP_ACCEPT：浏览器接受的类型列表
 
+HTTP_USER_AGENT：检查浏览页面的访问者在用什么操作系统
+
 
 ```
 
