@@ -21,6 +21,9 @@ HTTP_ACCEPT：浏览器接受的类型列表
 
 HTTP_USER_AGENT：检查浏览页面的访问者在用什么操作系统
 
+HTTP_UPGRADE_INSECURE_REQUESTS：是否过渡https
+
+
 
 ```
 
