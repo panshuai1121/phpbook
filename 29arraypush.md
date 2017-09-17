@@ -28,5 +28,13 @@ value：压入数组末尾的值
 
 返回处理之后数组的元素个数
 
+```
+<?php
+$stack = array("orange", "banana");
+array_push($stack, "apple", "raspberry");
+print_r($stack);
+?>
+```
+
 
 
