@@ -31,3 +31,24 @@ array\__sort_\_flags:
 
 成功返回true、失败返回false
 
+```
+$arr1 =[
+    [10,200,201,202,1,5],
+    [10,200,211,202,1,5],
+];
+echo "<pre>";
+array_multisort($arr1[0],SORT_ASC,SORT_STRING,
+    $arr1[1],SORT_NUMERIC,SORT_DESC);
+print_r($arr1);
+
+$ar = array(
+       array("10", 11, 100, 100, "a"),
+       array(   1,  2, "2",   3,   1)
+      );
+array_multisort($ar[0], SORT_ASC, SORT_STRING,
+                $ar[1], SORT_NUMERIC, SORT_DESC);
+var_dump($ar);
+```
+
+
+
