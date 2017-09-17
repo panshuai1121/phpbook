@@ -2,10 +2,15 @@
 
 将数组中的所有键名修改为全大写或小写
 
+语法：
+
 ```
 array array_change_key_case ( array $array [, int $case = CASE_LOWER ] )
-
 ```
 
+参数 
 
+array ：一个完整的数组
+
+case：CASE\__UPPER CASE\_LOWER_
 
