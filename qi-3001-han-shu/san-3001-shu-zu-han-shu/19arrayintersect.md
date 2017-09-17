@@ -23,12 +23,16 @@ print_r($result);
 ```
 
 ```
-
 $arr = ['a'=> 123, "b"=>456, "c"=>789];
 $arr1 = ['a'=> 456];
 
 print_r(array_intersect($arr,$arr1));
+```
 
+结果
+
+```
+Array ( [b] => 456 )
 ```
 
 
