@@ -20,6 +20,7 @@ values：填充的值
 $arr1 = ["id"];
 $arr2  = 123;
 print_r(array_fill_keys($arr1,$arr2));
+
 #结果
 Array ( [id] => 123 )
 ```
