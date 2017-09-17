@@ -103,6 +103,7 @@
     * [5、array\_count\_values](qi-3001-han-shu/san-3001-shu-zu-han-shu/arraycount-values.md)
     * [6、array\_diff\_assoc](qi-3001-han-shu/san-3001-shu-zu-han-shu/6arraydiffassoc.md)
     * [7、array\_diff\_key](qi-3001-han-shu/san-3001-shu-zu-han-shu/7arraydiffkey.md)
+    * [8、array\_diff\_uassoc](qi-3001-han-shu/san-3001-shu-zu-han-shu/8arraydiffuassoc.md)
 * [八、配置](ba-3001-pei-zhi.md)
   * [一、PHP.ini](ba-3001-pei-zhi/yi-3001-php-ini.md)
 
