@@ -6,5 +6,13 @@
 mixed array_pop ( array &$array )
 ```
 
+参数：
+
+array 需要操作的数组
+
+返回值：
+
+弹出并返回 array 数组的最后一个单元，并将数组 array 的长度减一
+
 
 
