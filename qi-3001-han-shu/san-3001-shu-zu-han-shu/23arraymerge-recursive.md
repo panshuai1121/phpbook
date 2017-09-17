@@ -18,5 +18,43 @@ array：需要合并的数组
 
 合并后的数组
 
+```
+$arr = [
+    'a'=> [
+      'id' => 1,
+      'name' => 'shuai',
+    ],
+    [
+      'id' => 2,
+      'name' => 'chao',
+    ],
+    [
+      'id' => 3,
+      'name' => 'jing',
+    ],
+    [
+      'id' => 4,
+      'name' => 'yuan',
+    ]
+];
+$arr1 = [
+    "a"=>[
+        'id' => 1,
+        'info' => [
+            'address' => '南京',
+        ]
+     ],
+     [
+        'id' => 2,
+        'info' => [
+            'address' => '日本',
+        ],
+     ]
+];
+
+echo "<pre>";
+print_r(array_merge_recursive($arr,$arr1));
+```
+
 
 
