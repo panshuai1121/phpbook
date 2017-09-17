@@ -12,8 +12,9 @@ array\_push\(\) 将 array 当成一个栈，并将传入的变量压入 array �
 <?php
 $array[] = $var;
 ?>
-
 ```
+
+并对每个传入的值重复以上动作。
 
 
 
