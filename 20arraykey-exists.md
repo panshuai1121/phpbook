@@ -22,5 +22,18 @@ array：需要去检查的数组
 array_key_exists() 仅仅搜索第一维的键。 多维数组里嵌套的键不会被搜索到。
 ```
 
+```
+
+$arr = ['a'=> 123, "b"=>null, "c"=>789];
+
+if (isset($arr["b"])) {
+    echo "this is b in array";
+}
+
+if (array_key_exists("b", $arr)) {
+    echo "this is b in array !";
+}
+```
+
 
 
