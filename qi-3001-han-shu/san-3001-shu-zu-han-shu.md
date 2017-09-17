@@ -1,10 +1,6 @@
 # 数组函数
 
-
-
-    [array\_change\_key\_case](http://php.net/manual/zh/function.array-change-key-case.php)
-
-* — 将数组中的所有键名修改为全大写或小写
+* [array\_change\_key\_case](http://php.net/manual/zh/function.array-change-key-case.php)— 将数组中的所有键名修改为全大写或小写
 * [array\_chunk](http://php.net/manual/zh/function.array-chunk.php)
   — 将一个数组分割成多个
 * [array\_column](http://php.net/manual/zh/function.array-column.php)
