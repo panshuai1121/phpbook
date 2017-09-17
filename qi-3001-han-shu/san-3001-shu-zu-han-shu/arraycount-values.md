@@ -6,6 +6,10 @@
 array array_count_values ( array $array )
 ```
 
+参数：
+
+array  需要统计的数组
+
 
 
 
