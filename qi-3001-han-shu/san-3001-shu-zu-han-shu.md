@@ -7,8 +7,7 @@
 * array\_count\_values— 统计数组中所有的值
 * array\_diff\_assoc— 带索引检查计算数组的差集
 * array\_diff\_key — 使用键名比较计算数组的差集
-* array\_diff\_uassoc
-  — 用用户提供的回调函数做索引检查来计算数组的差集
+* array\_diff\_uassoc— 用用户提供的回调函数做索引检查来计算数组的差集
 * array\_diff\_ukey
   — 用回调函数对键名比较计算数组的差集
 * array\_diff
