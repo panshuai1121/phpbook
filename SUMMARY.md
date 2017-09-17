@@ -121,7 +121,7 @@
     * [23、array\_merge\_recursive](qi-3001-han-shu/san-3001-shu-zu-han-shu/23arraymerge-recursive.md)
     * [24、array\_merge](qi-3001-han-shu/san-3001-shu-zu-han-shu/24arraymerge.md)
     * [25、array\_multisort](qi-3001-han-shu/san-3001-shu-zu-han-shu/25arraymultisort.md)
-    * 26、array\_pad
+    * [26、array\_pad](qi-3001-han-shu/san-3001-shu-zu-han-shu/26arraypad.md)
 * [八、配置](ba-3001-pei-zhi.md)
   * [一、PHP.ini](ba-3001-pei-zhi/yi-3001-php-ini.md)
 
