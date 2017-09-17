@@ -6,5 +6,13 @@
 mixed array_rand ( array $array [, int $num = 1 ] )
 ```
 
+参数：
+
+array：输入数组
+
+int：取出的随机单元
+
+
+
 
 
