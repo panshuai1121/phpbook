@@ -12,5 +12,9 @@ array 对别的数组
 
 callable ：用户定义的回调函数
 
+int
+
+callback\([mixed](http://php.net/manual/zh/language.pseudo-types.php#language.types.mixed)`$a`,[mixed](http://php.net/manual/zh/language.pseudo-types.php#language.types.mixed)`$b`\)
+
 
 
