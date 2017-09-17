@@ -6,5 +6,11 @@
 array array_diff_uassoc ( array $array1 , array $array2 [, array $... ], callable $key_compare_func )
 ```
 
+参数：
+
+array 对别的数组
+
+callable ：用户定义的回调函数
+
 
 
