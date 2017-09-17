@@ -10,7 +10,10 @@ array array_count_values ( array $array )
 
 array  需要统计的数组
 
+返回：
 
+返回一个关联数组，用`array`数组中的值作为键名，该值在数组中出现的次数作为值。
 
+  
 
 
