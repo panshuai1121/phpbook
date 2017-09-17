@@ -8,9 +8,15 @@
 array array_change_key_case ( array $array [, int $case = CASE_LOWER ] )
 ```
 
-参数 
+参数
 
 array ：一个完整的数组
 
 case：CASE\__UPPER CASE\_LOWER_
+
+返回：
+
+返回一个键全是小写或者全是大写的数组；如果输入值（`array`）不是一个数组，那么返回**`FALSE`**
+
+
 
