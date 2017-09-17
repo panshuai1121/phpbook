@@ -4,10 +4,8 @@
 * array\_chunk — 将一个数组分割成多个
 * array\_column— 返回数组中指定的一列
 * array\_combine— 创建一个数组，用一个数组的值作为其键名，另一个数组的值作为其值
-* array\_count\_values
-  — 统计数组中所有的值
-* array\_diff\_assoc
-  — 带索引检查计算数组的差集
+* array\_count\_values— 统计数组中所有的值
+* array\_diff\_assoc— 带索引检查计算数组的差集
 * array\_diff\_key
   — 使用键名比较计算数组的差集
 * array\_diff\_uassoc
