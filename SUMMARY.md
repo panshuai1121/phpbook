@@ -119,6 +119,7 @@
     * [21、array\_keys](qi-3001-han-shu/san-3001-shu-zu-han-shu/21arraykeys.md)
     * [22、array\_map](qi-3001-han-shu/san-3001-shu-zu-han-shu/22arraymap.md)
     * [23、array\_merge\_recursive](qi-3001-han-shu/san-3001-shu-zu-han-shu/23arraymerge-recursive.md)
+    * [24、array\_merge](qi-3001-han-shu/san-3001-shu-zu-han-shu/24arraymerge.md)
 * [八、配置](ba-3001-pei-zhi.md)
   * [一、PHP.ini](ba-3001-pei-zhi/yi-3001-php-ini.md)
 
