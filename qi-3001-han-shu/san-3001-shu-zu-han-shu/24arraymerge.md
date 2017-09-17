@@ -26,5 +26,14 @@ echo "<pre>";
 print_r(array_merge($arr,$arr1));
 ```
 
+结果
+
+```
+Array
+(
+    [0] => 1
+)
+```
+
 
 
