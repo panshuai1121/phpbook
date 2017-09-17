@@ -14,5 +14,10 @@ array ：计算的数组
 
 以整数或浮点数返回一个数组中所有值的乘积。
 
+```
+$arr = (range(1,100));
+print_r(array_product($arr));
+```
+
 
 
