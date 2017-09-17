@@ -18,3 +18,13 @@ array：需要比较的数组
 
 
 
+```
+$arr = array("a"=>1, "b"=>2, "c"=>3, "d"=>4, "e"=>5);
+
+$arr1 = array("b"=>1, "a"=>2,"c"=>3);
+
+print_r(array_intersect_key($arr,$arr1));
+```
+
+
+
