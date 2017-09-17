@@ -20,5 +20,7 @@ case：CASE\__UPPER CASE\_LOWER_
 
 错误/异常
 
-如果输入值（`array`）不是一个数组，就会抛出一个错误警告（**`E_WARNING`**）。
+如果输入值（`array`）不是一个数组，就会抛出一个错误警告（`E_WARNING`）。
+
+
 
