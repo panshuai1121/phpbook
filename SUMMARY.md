@@ -99,6 +99,7 @@
     * [1、array\_change\_key\_case](qi-3001-han-shu/san-3001-shu-zu-han-shu/1arraychange-key-case.md)
     * [2、array\_chunk](qi-3001-han-shu/san-3001-shu-zu-han-shu/2arraychunk.md)
     * [3、array\_column](qi-3001-han-shu/san-3001-shu-zu-han-shu/3arraycolumn.md)
+    * [4、array\_combine](qi-3001-han-shu/san-3001-shu-zu-han-shu/4arraycombine.md)
 * [八、配置](ba-3001-pei-zhi.md)
   * [一、PHP.ini](ba-3001-pei-zhi/yi-3001-php-ini.md)
 
