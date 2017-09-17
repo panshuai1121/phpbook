@@ -56,5 +56,57 @@ echo "<pre>";
 print_r(array_merge_recursive($arr,$arr1));
 ```
 
+结果：
+
+```
+Array
+(
+    [a] => Array
+        (
+            [id] => Array
+                (
+                    [0] => 1
+                    [1] => 1
+                )
+
+            [name] => shuai
+            [info] => Array
+                (
+                    [address] => 南京
+                )
+
+        )
+
+    [0] => Array
+        (
+            [id] => 2
+            [name] => chao
+        )
+
+    [1] => Array
+        (
+            [id] => 3
+            [name] => jing
+        )
+
+    [2] => Array
+        (
+            [id] => 4
+            [name] => yuan
+        )
+
+    [3] => Array
+        (
+            [id] => 2
+            [info] => Array
+                (
+                    [address] => 日本
+                )
+
+        )
+
+)
+```
+
 
 
