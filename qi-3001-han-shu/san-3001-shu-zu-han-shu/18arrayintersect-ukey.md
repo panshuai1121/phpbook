@@ -28,5 +28,23 @@ $array2 = array('green' => 5, 'blue' => 6, 'yellow' => 7, 'cyan'   => 8);
 var_dump(array_intersect_ukey($array1, $array2, 'key_compare_func'));
 ```
 
+```
+$arr = ['a'=> 123, "b"=>456, "c"=>789];
+$arr1 = ['a'=> 456];
+
+print_r(array_intersect_ukey($arr,$arr1,"key_intersect"));
+
+function key_intersect($a,$b) {
+    if($a ==  $b) {
+      return 0;
+    } elseif ($a < $b) {
+      return -1;
+    } elseif ($a > $b) {
+      return 1;
+    }
+}
+
+```
+
 
 
