@@ -14,5 +14,7 @@ array 需要操作的数组
 
 弹出并返回 array 数组的最后一个单元，并将数组 array 的长度减一
 
+错误、异常：
 
+调用此函数去处理非数组的值，会产生[E\_WARNING](http://php.net/manual/zh/errorfunc.constants.php)级别的错误
 
