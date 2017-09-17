@@ -16,5 +16,13 @@ values：填充的值
 
 填充后的数组
 
+```
+$arr1 = ["id"];
+$arr2  = 123;
+print_r(array_fill_keys($arr1,$arr2));
+
+Array ( [id] => 123 )
+```
+
 
 
