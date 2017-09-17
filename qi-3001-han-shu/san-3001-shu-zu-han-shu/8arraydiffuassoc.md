@@ -16,9 +16,7 @@ int callback\([mixed](http://php.net/manual/zh/language.pseudo-types.php#languag
 
 返回值：
 
-```
 返回一个 array，该数组包括了所有在 array1 中但是不在任何其它参数数组中的值。
-```
 
 
 
