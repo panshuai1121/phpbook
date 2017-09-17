@@ -95,7 +95,7 @@
     * [10、chop](qi-3001-han-shu/er-3001-zi-fu-chuan-han-shu/10chop.md)
     * [11、chr](qi-3001-han-shu/er-3001-zi-fu-chuan-han-shu/11chr.md)
     * [12、ord ](qi-3001-han-shu/er-3001-zi-fu-chuan-han-shu/12ord.md)
-  * 三、数组函数
+  * [三、数组函数](qi-3001-han-shu/san-3001-shu-zu-han-shu.md)
 * [八、配置](ba-3001-pei-zhi.md)
   * [一、PHP.ini](ba-3001-pei-zhi/yi-3001-php-ini.md)
 
