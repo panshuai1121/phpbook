@@ -18,5 +18,11 @@ strict：是否进行严格检查 ===
 
 返回`input`里的所有键
 
+```
+$arr = ['a'=> 123, "b"=>'b', "c"=>789,"B"=>'B'];
+
+print_r(array_keys($arr,'b',true));
+```
+
 
 
