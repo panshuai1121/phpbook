@@ -18,3 +18,13 @@ array 需要操作的数组
 
 调用此函数去处理非数组的值，会产生[E\_WARNING](http://php.net/manual/zh/errorfunc.constants.php)级别的错误
 
+```
+<?php
+$stack = array("orange", "banana", "apple", "raspberry");
+$fruit = array_pop($stack);
+print_r($stack);
+?>
+```
+
+
+
