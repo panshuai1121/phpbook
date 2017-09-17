@@ -110,6 +110,7 @@
     * [12、array\_fill](qi-3001-han-shu/san-3001-shu-zu-han-shu/12arrayfill.md)
     * [13、array\_filter](qi-3001-han-shu/san-3001-shu-zu-han-shu/13arrayfilter.md)
     * [14、array\_filp](qi-3001-han-shu/san-3001-shu-zu-han-shu/14arrayfilp.md)
+    * [15、array\_intersect\_assoc](15arrayintersect-assoc.md)
 * [八、配置](ba-3001-pei-zhi.md)
   * [一、PHP.ini](ba-3001-pei-zhi/yi-3001-php-ini.md)
 
