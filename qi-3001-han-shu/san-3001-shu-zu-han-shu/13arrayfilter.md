@@ -16,9 +16,30 @@ callable：使用回调函数，如果没有回调函数 会将数组中 **值�
 
 flag：
 
-**`ARRAY_FILTER_USE_KEY`**-`callback`接受键名作为的唯一参数
+`ARRAY_FILTER_USE_KEY`-`callback`接受键名作为的唯一参数
 
-**`ARRAY_FILTER_USE_BOTH`**-`callback`同时接受键名和键值
+`ARRAY_FILTER_USE_BOTH`-`callback`同时接受键名和键值
+
+
+
+```
+#求奇偶数
+
+$arr = array("a"=>1, "b"=>2, "c"=>3, "d"=>4, "e"=>5);
+$arr1 = [1,2,3,4,5,6,7];
+
+function odd($var) {
+    return ($var & 1);
+}
+
+function even($var) {
+    return (!($var & 1));
+}
+
+print_r(array_filter($arr,"odd"));
+
+print_r(array_filter($arr,"even"));
+```
 
 
 
