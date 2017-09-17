@@ -107,6 +107,7 @@
     * [9、array\_diff\_ukey](qi-3001-han-shu/san-3001-shu-zu-han-shu/8arraydiffukey.md)
     * [10、array\_diff](qi-3001-han-shu/san-3001-shu-zu-han-shu/10arraydiff.md)
     * [11、array\_fill\_keys](qi-3001-han-shu/san-3001-shu-zu-han-shu/11arrayfillkeys.md)
+    * [12、array\_fill](qi-3001-han-shu/san-3001-shu-zu-han-shu/12arrayfill.md)
 * [八、配置](ba-3001-pei-zhi.md)
   * [一、PHP.ini](ba-3001-pei-zhi/yi-3001-php-ini.md)
 
