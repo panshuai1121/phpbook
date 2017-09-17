@@ -18,5 +18,22 @@ int callback\([mixed](http://php.net/manual/zh/language.pseudo-types.php#languag
 
 返回一个 array，该数组包括了所有在 array1 中但是不在任何其它参数数组中的值。
 
+```
+<?php
+function key_compare_func($a, $b)
+{
+    if ($a === $b) {
+        return 0;
+    }
+    return ($a > $b)? 1:-1;
+}
+
+$array1 = array("a" => "green", "b" => "brown", "c" => "blue", "red");
+$array2 = array("a" => "green", "yellow", "red");
+$result = array_diff_uassoc($array1, $array2, "key_compare_func");
+print_r($result);
+?>
+```
+
 
 
