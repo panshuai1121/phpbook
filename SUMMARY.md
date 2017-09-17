@@ -124,6 +124,7 @@
     * [26、array\_pad](qi-3001-han-shu/san-3001-shu-zu-han-shu/26arraypad.md)
     * [27、array\_pop](qi-3001-han-shu/san-3001-shu-zu-han-shu/27arraypop.md)
     * [28、array\_product](qi-3001-han-shu/san-3001-shu-zu-han-shu/28arrayproduct.md)
+    * [29、array\_push](29arraypush.md)
 * [八、配置](ba-3001-pei-zhi.md)
   * [一、PHP.ini](ba-3001-pei-zhi/yi-3001-php-ini.md)
 
