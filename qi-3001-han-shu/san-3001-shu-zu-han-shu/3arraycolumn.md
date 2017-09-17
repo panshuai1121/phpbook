@@ -16,11 +16,39 @@ column-key：需要返回的列它可以是索引数组的列索引，或者是�
 
 **index\_key**：作为返回数组的索引/键的列，它可以是该列的整数索引，或者字符串键值
 
-
-
 返回：
 
 从多维数组中返回单列
+
+```
+
+$records = array(
+    array(
+        'id' => 2135,
+        'first_name' => 'John',
+        'last_name' => 'Doe',
+    ),
+    array(
+        'id' => 3245,
+        'first_name' => 'Sally',
+        'last_name' => 'Smith',
+    ),
+    array(
+        'id' => 5342,
+        'first_name' => 'Jane',
+        'last_name' => 'Jones',
+    ),
+    array(
+        'id' => 5623,
+        'first_name' => 'Peter',
+        'last_name' => 'Doe',
+    )
+);
+
+$res = array_column($records,'first_name',"id");
+
+print_r($res);
+```
 
 
 
