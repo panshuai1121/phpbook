@@ -16,5 +16,16 @@ values：作为array的值
 
 合并后的数组，如果两个数组单元数不匹配会有警告
 
+```
+$aArr = ["shuai","chao","she","he"];
+$bArr = ["28","28","28"];
+
+$cArr = array_combine($aArr,$bArr);
+
+print_r($cArr);
+
+Warning: array_combine(): Both parameters should have an equal number of elements in /usr/local/nginx/html/php7Learn/index.php on line 8
+```
+
 
 
