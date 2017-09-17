@@ -27,5 +27,7 @@ array\__sort_\_flags:
 * SORT\_NATURAL - 以字符串的"自然排序"，类似 natsort\(\)
 * SORT\_FLAG\_CASE - 可以组合 \(按位或 OR\) SORT\_STRING 或者 SORT\_NATURAL 大小写不敏感的方式排序字符串
 
+返回值
 
+成功返回true、失败返回false
 
