@@ -23,7 +23,6 @@ array_key_exists() 仅仅搜索第一维的键。 多维数组里嵌套的键不
 ```
 
 ```
-
 $arr = ['a'=> 123, "b"=>null, "c"=>789];
 
 if (isset($arr["b"])) {
@@ -33,6 +32,14 @@ if (isset($arr["b"])) {
 if (array_key_exists("b", $arr)) {
     echo "this is b in array !";
 }
+```
+
+结果：
+
+```
+第一个为false
+
+第二个输出 this is b in array
 ```
 
 
