@@ -24,5 +24,11 @@ $arr = ['a'=> 123, "b"=>'b', "c"=>789,"B"=>'B'];
 print_r(array_keys($arr,'b',true));
 ```
 
+结果
+
+```
+Array ( [0] => b )
+```
+
 
 
