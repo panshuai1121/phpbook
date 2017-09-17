@@ -20,5 +20,11 @@ array：需要合并的数组列表
 
 返回结果数组
 
+```
+$arr1 = array(1);
+echo "<pre>";
+print_r(array_merge($arr,$arr1));
+```
+
 
 
