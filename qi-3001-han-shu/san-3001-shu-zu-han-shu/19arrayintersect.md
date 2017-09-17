@@ -22,5 +22,14 @@ $result = array_intersect($array1, $array2);
 print_r($result);
 ```
 
+```
+
+$arr = ['a'=> 123, "b"=>456, "c"=>789];
+$arr1 = ['a'=> 456];
+
+print_r(array_intersect($arr,$arr1));
+
+```
+
 
 
