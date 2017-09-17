@@ -3,8 +3,7 @@
 * array\_change\_key\_case— 将数组中的所有键名修改为全大写或小写
 * array\_chunk — 将一个数组分割成多个
 * array\_column— 返回数组中指定的一列
-* array\_combine
-  — 创建一个数组，用一个数组的值作为其键名，另一个数组的值作为其值
+* array\_combine— 创建一个数组，用一个数组的值作为其键名，另一个数组的值作为其值
 * array\_count\_values
   — 统计数组中所有的值
 * array\_diff\_assoc
