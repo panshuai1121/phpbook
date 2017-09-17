@@ -28,5 +28,14 @@ $array2 = array("a" => "GREEN", "B" => "brown", "yellow", "red");
 print_r(array_intersect_uassoc($array1, $array2, "strcasecmp"));
 ```
 
+结果：
+
+```
+Array
+(
+    [b] => brown
+)
+```
+
 
 
