@@ -18,5 +18,17 @@ array  需要统计的数组
 
 对于数组中每个不是string或intger类型的元素抛出异常
 
+```
+$arr = array("hello","world","!!","19","20","19"=>array(1));
+
+$statistics = array_count_values($arr);
+
+var_dump($statistics);
+
+#19的地方输入了一个数组类型 会有警告
+
+Warning: array_count_values(): Can only count STRING and INTEGER values! 
+```
+
 
 
