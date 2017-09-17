@@ -1,0 +1,166 @@
+# 数组函数
+
+
+
+    [array\_change\_key\_case](http://php.net/manual/zh/function.array-change-key-case.php)
+
+* — 将数组中的所有键名修改为全大写或小写
+* [array\_chunk](http://php.net/manual/zh/function.array-chunk.php)
+  — 将一个数组分割成多个
+* [array\_column](http://php.net/manual/zh/function.array-column.php)
+  — 返回数组中指定的一列
+* [array\_combine](http://php.net/manual/zh/function.array-combine.php)
+  — 创建一个数组，用一个数组的值作为其键名，另一个数组的值作为其值
+* [array\_count\_values](http://php.net/manual/zh/function.array-count-values.php)
+  — 统计数组中所有的值
+* [array\_diff\_assoc](http://php.net/manual/zh/function.array-diff-assoc.php)
+  — 带索引检查计算数组的差集
+* [array\_diff\_key](http://php.net/manual/zh/function.array-diff-key.php)
+  — 使用键名比较计算数组的差集
+* [array\_diff\_uassoc](http://php.net/manual/zh/function.array-diff-uassoc.php)
+  — 用用户提供的回调函数做索引检查来计算数组的差集
+* [array\_diff\_ukey](http://php.net/manual/zh/function.array-diff-ukey.php)
+  — 用回调函数对键名比较计算数组的差集
+* [array\_diff](http://php.net/manual/zh/function.array-diff.php)
+  — 计算数组的差集
+* [array\_fill\_keys](http://php.net/manual/zh/function.array-fill-keys.php)
+  — 使用指定的键和值填充数组
+* [array\_fill](http://php.net/manual/zh/function.array-fill.php)
+  — 用给定的值填充数组
+* [array\_filter](http://php.net/manual/zh/function.array-filter.php)
+  — 用回调函数过滤数组中的单元
+* [array\_flip](http://php.net/manual/zh/function.array-flip.php)
+  — 交换数组中的键和值
+* [array\_intersect\_assoc](http://php.net/manual/zh/function.array-intersect-assoc.php)
+  — 带索引检查计算数组的交集
+* [array\_intersect\_key](http://php.net/manual/zh/function.array-intersect-key.php)
+  — 使用键名比较计算数组的交集
+* [array\_intersect\_uassoc](http://php.net/manual/zh/function.array-intersect-uassoc.php)
+  — 带索引检查计算数组的交集，用回调函数比较索引
+* [array\_intersect\_ukey](http://php.net/manual/zh/function.array-intersect-ukey.php)
+  — 用回调函数比较键名来计算数组的交集
+* [array\_intersect](http://php.net/manual/zh/function.array-intersect.php)
+  — 计算数组的交集
+* [array\_key\_exists](http://php.net/manual/zh/function.array-key-exists.php)
+  — 检查数组里是否有指定的键名或索引
+* [array\_keys](http://php.net/manual/zh/function.array-keys.php)
+  — 返回数组中部分的或所有的键名
+* [array\_map](http://php.net/manual/zh/function.array-map.php)
+  — 为数组的每个元素应用回调函数
+* [array\_merge\_recursive](http://php.net/manual/zh/function.array-merge-recursive.php)
+  — 递归地合并一个或多个数组
+* [array\_merge](http://php.net/manual/zh/function.array-merge.php)
+  — 合并一个或多个数组
+* [array\_multisort](http://php.net/manual/zh/function.array-multisort.php)
+  — 对多个数组或多维数组进行排序
+* [array\_pad](http://php.net/manual/zh/function.array-pad.php)
+  — 以指定长度将一个值填充进数组
+* [array\_pop](http://php.net/manual/zh/function.array-pop.php)
+  — 弹出数组最后一个单元（出栈）
+* [array\_product](http://php.net/manual/zh/function.array-product.php)
+  — 计算数组中所有值的乘积
+* [array\_push](http://php.net/manual/zh/function.array-push.php)
+  — 将一个或多个单元压入数组的末尾（入栈）
+* [array\_rand](http://php.net/manual/zh/function.array-rand.php)
+  — 从数组中随机取出一个或多个单元
+* [array\_reduce](http://php.net/manual/zh/function.array-reduce.php)
+  — 用回调函数迭代地将数组简化为单一的值
+* [array\_replace\_recursive](http://php.net/manual/zh/function.array-replace-recursive.php)
+  — 使用传递的数组递归替换第一个数组的元素
+* [array\_replace](http://php.net/manual/zh/function.array-replace.php)
+  — 使用传递的数组替换第一个数组的元素
+* [array\_reverse](http://php.net/manual/zh/function.array-reverse.php)
+  — 返回单元顺序相反的数组
+* [array\_search](http://php.net/manual/zh/function.array-search.php)
+  — 在数组中搜索给定的值，如果成功则返回首个相应的键名
+* [array\_shift](http://php.net/manual/zh/function.array-shift.php)
+  — 将数组开头的单元移出数组
+* [array\_slice](http://php.net/manual/zh/function.array-slice.php)
+  — 从数组中取出一段
+* [array\_splice](http://php.net/manual/zh/function.array-splice.php)
+  — 去掉数组中的某一部分并用其它值取代
+* [array\_sum](http://php.net/manual/zh/function.array-sum.php)
+  — 对数组中所有值求和
+* [array\_udiff\_assoc](http://php.net/manual/zh/function.array-udiff-assoc.php)
+  — 带索引检查计算数组的差集，用回调函数比较数据
+* [array\_udiff\_uassoc](http://php.net/manual/zh/function.array-udiff-uassoc.php)
+  — 带索引检查计算数组的差集，用回调函数比较数据和索引
+* [array\_udiff](http://php.net/manual/zh/function.array-udiff.php)
+  — 用回调函数比较数据来计算数组的差集
+* [array\_uintersect\_assoc](http://php.net/manual/zh/function.array-uintersect-assoc.php)
+  — 带索引检查计算数组的交集，用回调函数比较数据
+* [array\_uintersect\_uassoc](http://php.net/manual/zh/function.array-uintersect-uassoc.php)
+  — 带索引检查计算数组的交集，用单独的回调函数比较数据和索引
+* [array\_uintersect](http://php.net/manual/zh/function.array-uintersect.php)
+  — 计算数组的交集，用回调函数比较数据
+* [array\_unique](http://php.net/manual/zh/function.array-unique.php)
+  — 移除数组中重复的值
+* [array\_unshift](http://php.net/manual/zh/function.array-unshift.php)
+  — 在数组开头插入一个或多个单元
+* [array\_values](http://php.net/manual/zh/function.array-values.php)
+  — 返回数组中所有的值
+* [array\_walk\_recursive](http://php.net/manual/zh/function.array-walk-recursive.php)
+  — 对数组中的每个成员递归地应用用户函数
+* [array\_walk](http://php.net/manual/zh/function.array-walk.php)
+  — 使用用户自定义函数对数组中的每个元素做回调处理
+* [array](http://php.net/manual/zh/function.array.php)
+  — 新建一个数组
+* [arsort](http://php.net/manual/zh/function.arsort.php)
+  — 对数组进行逆向排序并保持索引关系
+* [asort](http://php.net/manual/zh/function.asort.php)
+  — 对数组进行排序并保持索引关系
+* [compact](http://php.net/manual/zh/function.compact.php)
+  — 建立一个数组，包括变量名和它们的值
+* [count](http://php.net/manual/zh/function.count.php)
+  — 计算数组中的单元数目，或对象中的属性个数
+* [current](http://php.net/manual/zh/function.current.php)
+  — 返回数组中的当前单元
+* [each](http://php.net/manual/zh/function.each.php)
+  — 返回数组中当前的键／值对并将数组指针向前移动一步
+* [end](http://php.net/manual/zh/function.end.php)
+  — 将数组的内部指针指向最后一个单元
+* [extract](http://php.net/manual/zh/function.extract.php)
+  — 从数组中将变量导入到当前的符号表
+* [in\_array](http://php.net/manual/zh/function.in-array.php)
+  — 检查数组中是否存在某个值
+* [key\_exists](http://php.net/manual/zh/function.key-exists.php)
+  — 别名 array\_key\_exists
+* [key](http://php.net/manual/zh/function.key.php)
+  — 从关联数组中取得键名
+* [krsort](http://php.net/manual/zh/function.krsort.php)
+  — 对数组按照键名逆向排序
+* [ksort](http://php.net/manual/zh/function.ksort.php)
+  — 对数组按照键名排序
+* [list](http://php.net/manual/zh/function.list.php)
+  — 把数组中的值赋给一组变量
+* [natcasesort](http://php.net/manual/zh/function.natcasesort.php)
+  — 用“自然排序”算法对数组进行不区分大小写字母的排序
+* [natsort](http://php.net/manual/zh/function.natsort.php)
+  — 用“自然排序”算法对数组排序
+* [next](http://php.net/manual/zh/function.next.php)
+  — 将数组中的内部指针向前移动一位
+* [pos](http://php.net/manual/zh/function.pos.php)
+  — current 的别名
+* [prev](http://php.net/manual/zh/function.prev.php)
+  — 将数组的内部指针倒回一位
+* [range](http://php.net/manual/zh/function.range.php)
+  — 根据范围创建数组，包含指定的元素
+* [reset](http://php.net/manual/zh/function.reset.php)
+  — 将数组的内部指针指向第一个单元
+* [rsort](http://php.net/manual/zh/function.rsort.php)
+  — 对数组逆向排序
+* [shuffle](http://php.net/manual/zh/function.shuffle.php)
+  — 打乱数组
+* [sizeof](http://php.net/manual/zh/function.sizeof.php)
+  — count 的别名
+* [sort](http://php.net/manual/zh/function.sort.php)
+  — 对数组排序
+* [uasort](http://php.net/manual/zh/function.uasort.php)
+  — 使用用户自定义的比较函数对数组中的值进行排序并保持索引关联
+* [uksort](http://php.net/manual/zh/function.uksort.php)
+  — 使用用户自定义的比较函数对数组中的键名进行排序
+* [usort](http://php.net/manual/zh/function.usort.php)
+  — 使用用户自定义的比较函数对数组中的值进行排序
+
+
+
