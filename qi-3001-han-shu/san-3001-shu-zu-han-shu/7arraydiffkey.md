@@ -29,6 +29,9 @@ $arr2 = array(
 $result = array_diff_key($arr1, $arr2);
 
 print_r($result);
+
+#结果
+Array ( [class] => 9 )
 ```
 
 
