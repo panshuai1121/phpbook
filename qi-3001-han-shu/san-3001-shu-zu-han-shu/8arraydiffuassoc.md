@@ -14,3 +14,11 @@ callable ：用户定义的回调函数
 
 int callback\([mixed](http://php.net/manual/zh/language.pseudo-types.php#language.types.mixed)`$a`,[mixed](http://php.net/manual/zh/language.pseudo-types.php#language.types.mixed)`$b`\)
 
+返回值：
+
+```
+返回一个 array，该数组包括了所有在 array1 中但是不在任何其它参数数组中的值。
+```
+
+
+
