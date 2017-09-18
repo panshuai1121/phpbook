@@ -17,12 +17,10 @@ preserve—key：是否保留键名，如果是数字索引始终保留
 返回反转后的数组
 
 ```
-
 $arr = array(
   'a','b','c'
 );
 print_r(array_reverse($arr,true));
-
 ```
 
 结果
