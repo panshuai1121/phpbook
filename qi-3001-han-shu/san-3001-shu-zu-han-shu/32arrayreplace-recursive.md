@@ -33,5 +33,37 @@ print_r($basket);
 ?>
 ```
 
+结果
+
+```
+Array
+(
+    [citrus] => Array
+        (
+            [0] => pineapple
+        )
+
+    [berries] => Array
+        (
+            [0] => blueberry
+            [1] => raspberry
+        )
+
+)
+Array
+(
+    [citrus] => Array
+        (
+            [0] => pineapple
+        )
+
+    [berries] => Array
+        (
+            [0] => blueberry
+        )
+
+)
+```
+
 
 
