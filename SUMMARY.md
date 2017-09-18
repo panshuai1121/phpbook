@@ -126,6 +126,7 @@
     * [28、array\_product](qi-3001-han-shu/san-3001-shu-zu-han-shu/28arrayproduct.md)
     * [29、array\_push](29arraypush.md)
     * [30、array\_rand](30arrayrand.md)
+    * [31、array\_reduce](qi-3001-han-shu/san-3001-shu-zu-han-shu/31arrayreduce.md)
 * [八、配置](ba-3001-pei-zhi.md)
   * [一、PHP.ini](ba-3001-pei-zhi/yi-3001-php-ini.md)
 
