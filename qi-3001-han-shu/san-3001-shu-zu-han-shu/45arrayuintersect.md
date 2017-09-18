@@ -20,5 +20,14 @@ value\_compare\_func：在第一个参数小于，等于或大于第二个参数
 int callback ( mixed $a, mixed $b )
 ```
 
+```
+<?php
+$array1 = array("a" => "green", "b" => "brown", "c" => "blue", "red");
+$array2 = array("a" => "GREEN", "B" => "brown", "yellow", "red");
+
+print_r(array_uintersect($array1, $array2, "strcasecmp"));
+?>
+```
+
 
 
