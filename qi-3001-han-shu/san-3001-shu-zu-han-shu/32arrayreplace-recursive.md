@@ -20,5 +20,18 @@ array：替换的数组或数组列表
 
 返回一个数组。如果发生错误，将返回 NULL。
 
+```
+<?php
+$base = array('citrus' => array( "orange") , 'berries' => array("blackberry", "raspberry"), );
+$replacements = array('citrus' => array('pineapple'), 'berries' => array('blueberry'));
+
+$basket = array_replace_recursive($base, $replacements);
+print_r($basket);
+
+$basket = array_replace($base, $replacements);
+print_r($basket);
+?>
+```
+
 
 
