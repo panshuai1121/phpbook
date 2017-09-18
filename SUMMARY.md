@@ -142,6 +142,7 @@
     * [44、array\_uintersect\_uassoc](qi-3001-han-shu/san-3001-shu-zu-han-shu/44arrayuintersect-uassoc.md)
     * [45、array\_uintersect](qi-3001-han-shu/san-3001-shu-zu-han-shu/45arrayuintersect.md)
     * [46、array\_unique](qi-3001-han-shu/san-3001-shu-zu-han-shu/46arrayunique.md)
+    * [47、array\_unshift](47arrayunshift.md)
 * [八、配置](ba-3001-pei-zhi.md)
   * [一、PHP.ini](ba-3001-pei-zhi/yi-3001-php-ini.md)
 
