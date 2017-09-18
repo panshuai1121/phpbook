@@ -28,5 +28,12 @@ inital：
 
 如果指定了可选参数`initial`，该参数将在处理开始前使用，或者当处理结束，数组为空时的最后一个结果
 
+```
+$res = array_reduce($arr, function($carry,$item) {
+    return $carry+=$item;
+});
+print_r($res);
+```
+
 
 
