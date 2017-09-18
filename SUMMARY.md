@@ -136,6 +136,7 @@
     * [38、array\_splice](qi-3001-han-shu/san-3001-shu-zu-han-shu/38arraysplice.md)
     * [39、array\_sum](qi-3001-han-shu/san-3001-shu-zu-han-shu/39arraysum.md)
     * [40、array\_udiff\_assoc](qi-3001-han-shu/san-3001-shu-zu-han-shu/40arrayudiffassoc.md)
+    * [41、array\_udiff](41arrayudiff.md)
 * [八、配置](ba-3001-pei-zhi.md)
   * [一、PHP.ini](ba-3001-pei-zhi/yi-3001-php-ini.md)
 
