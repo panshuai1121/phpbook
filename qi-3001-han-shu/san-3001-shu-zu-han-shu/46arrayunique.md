@@ -28,5 +28,11 @@ SORT\_LOCALE\_STRING - 根据当前的本地化设置，按照字符串比较。
 
 返回过滤后的数组
 
+```
+$arr = array("a","a"=>"a",'b','c',"b"=>'a');
+
+print_r(array_unique($arr));
+```
+
 
 
