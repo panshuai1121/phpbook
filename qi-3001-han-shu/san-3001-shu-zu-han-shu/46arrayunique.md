@@ -10,13 +10,9 @@ array array_unique ( array $array [, int $sort_flags = SORT_STRING ] )
 
 参数：
 
-array
+array 输入的数组。
 
-输入的数组。
-
-sort\_flags
-
-第二个可选参数sort\_flags 可用于修改排序行为：
+sort\_flags 第二个可选参数sort\_flags 可用于修改排序行为：
 
 排序类型标记：
 
@@ -27,6 +23,4 @@ SORT\_NUMERIC - 按照数字形式比较
 SORT\_STRING - 按照字符串形式比较
 
 SORT\_LOCALE\_STRING - 根据当前的本地化设置，按照字符串比较。
-
-
 
