@@ -32,5 +32,35 @@ replacement
 
 如果用来替换 replacement 只有一个单元，那么不需要给它加上 array\(\)，除非该单元本身就是一个数组、一个对象或者 NULL。
 
+返回值：
+
+返回一个包含有被移除单元的数组
+
+```
+<?php
+$input = array("red", "green", "blue", "yellow");
+array_splice($input, 2);
+// $input is now array("red", "green")
+
+$input = array("red", "green", "blue", "yellow");
+array_splice($input, 1, -1);
+// $input is now array("red", "yellow")
+
+$input = array("red", "green", "blue", "yellow");
+array_splice($input, 1, count($input), "orange");
+// $input is now array("red", "orange")
+
+$input = array("red", "green", "blue", "yellow");
+array_splice($input, -1, 1, array("black", "maroon"));
+// $input is now array("red", "green",
+//          "blue", "black", "maroon")
+
+$input = array("red", "green", "blue", "yellow");
+array_splice($input, 3, 0, "purple");
+// $input is now array("red", "green",
+//          "blue", "purple", "yellow");
+?>
+```
+
 
 
