@@ -6,7 +6,7 @@
 mixed array_search ( mixed $needle , array $haystack [, bool $strict = false ]
 ```
 
- 参数：
+参数：
 
 needle ：需要查找的值
 
@@ -18,7 +18,9 @@ strict：
 
 如果可选的第三个参数 strict 为 TRUE，则 array\_search\(\) 将在 haystack 中检查完全相同的元素。 这意味着同样严格比较 haystack 里 needle 的 类型，并且对象需是同一个实例
 
+返回值：
 
+如果找到返回need对应的键，否则false
 
 
 
