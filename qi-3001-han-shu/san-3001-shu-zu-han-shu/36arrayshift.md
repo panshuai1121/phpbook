@@ -16,5 +16,13 @@ array：数组
 
 返回移出的值，如果 array 为 空或不是一个数组则返回 NULL。
 
+```
+<?php
+$stack = array("orange", "banana", "apple", "raspberry");
+$fruit = array_shift($stack);
+print_r($stack);
+?>
+```
+
 
 
