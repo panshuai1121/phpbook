@@ -16,13 +16,23 @@ length: 如果给出了 length 并且为正，则序列中将具有这么多的�
 
 preserve\_keys: 注意 array\_slice\(\) 默认会重新排序并重置数组的数字索引。你可以通过将 preserve\_keys 设为 TRUE 来改变此行为。
 
-
-
 返回值：
 
 返回其中一段。 如果 offset 参数大于 array 尺寸，就会返回空的 array
 
+```
+<?php
+$input = array("a", "b", "c", "d", "e");
 
+$output = array_slice($input, 2);      // returns "c", "d", and "e"
+$output = array_slice($input, -2, 1);  // returns "d"
+$output = array_slice($input, 0, 3);   // returns "a", "b", and "c"
+
+// note the differences in the array keys
+print_r(array_slice($input, 2, -1));
+print_r(array_slice($input, 2, -1, true));
+?>
+```
 
 
 
