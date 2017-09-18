@@ -2,3 +2,9 @@
 
 在数组中搜索给定的值，如果成功则返回首个相应的键名
 
+```
+mixed array_search ( mixed $needle , array $haystack [, bool $strict = false ]
+```
+
+
+
