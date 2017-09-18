@@ -39,7 +39,7 @@ $array2[1]->width = 9;  $array2[1]->height = 2;
 function compare_by_area($a, $b) {
     $areaA = $a->width * $a->height;
     $areaB = $b->width * $b->height;
-    
+
     if ($areaA < $areaB) {
         return -1;
     } elseif ($areaA > $areaB) {
