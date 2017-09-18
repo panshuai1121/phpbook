@@ -34,5 +34,11 @@ $arr = array("a","a"=>"a",'b','c',"b"=>'a');
 print_r(array_unique($arr));
 ```
 
+结果：
+
+```
+Array ( [0] => a [1] => b [2] => c )
+```
+
 
 
