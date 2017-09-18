@@ -18,5 +18,13 @@ value1：开头插入的位置
 
 数组新的单元数目
 
+```
+<?php
+$queue = array("orange", "banana");
+array_unshift($queue, "apple", "raspberry");
+print_r($queue);
+?>
+```
+
 
 
