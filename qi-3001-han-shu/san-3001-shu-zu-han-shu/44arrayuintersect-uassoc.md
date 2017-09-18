@@ -6,5 +6,10 @@
 array array_uintersect_uassoc ( array $array1 , array $array2 [, array $... ], callable $value_compare_func , callable $key_compare_func )
 ```
 
+通过额外的索引检查、回调函数比较数据和索引来返回多个数组的交集。
+
+  
+
+
 
 
