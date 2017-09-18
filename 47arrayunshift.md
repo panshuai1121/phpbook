@@ -26,5 +26,15 @@ print_r($queue);
 ?>
 ```
 
+```
+Array
+(
+    [0] => apple
+    [1] => raspberry
+    [2] => orange
+    [3] => banana
+)
+```
+
 
 
