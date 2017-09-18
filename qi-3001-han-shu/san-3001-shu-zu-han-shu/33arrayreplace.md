@@ -31,5 +31,18 @@ print_r($basket);
 ?>
 ```
 
+结果：
+
+```
+Array
+(
+    [0] => grape
+    [1] => banana
+    [2] => apple
+    [3] => raspberry
+    [4] => cherry
+)
+```
+
 
 
