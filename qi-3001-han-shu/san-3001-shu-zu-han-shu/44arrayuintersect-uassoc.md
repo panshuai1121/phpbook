@@ -29,3 +29,15 @@ key_compare_func
 
 返回一个数组，该数组包含了所有在`array1`中也同时出现在所有其它参数数组中的值。
 
+```
+<?php
+$array1 = array("a" => "green", "b" => "brown", "c" => "blue", "red");
+$array2 = array("a" => "GREEN", "B" => "brown", "yellow", "red");
+
+print_r(array_uintersect_uassoc($array1, $array2, "strcasecmp", "strcasecmp"));
+?>
+
+```
+
+
+
