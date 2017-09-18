@@ -18,7 +18,18 @@ array2：从数组中取替换的值
 
 返回值：
 
-返回一个数组。如果发生错误，将返回**`NULL`**。
+返回一个数组。如果发生错误，将返回`NULL`。
+
+```
+<?php
+$base = array("orange", "banana", "apple", "raspberry");
+$replacements = array(0 => "pineapple", 4 => "cherry");
+$replacements2 = array(0 => "grape");
+
+$basket = array_replace($base, $replacements, $replacements2);
+print_r($basket);
+?>
+```
 
 
 
