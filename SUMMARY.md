@@ -132,6 +132,7 @@
     * [34、array\_reverse](qi-3001-han-shu/san-3001-shu-zu-han-shu/34arrayreverse.md)
     * [35、array\_search](qi-3001-han-shu/san-3001-shu-zu-han-shu/35arraysearch.md)
     * [36、array\_shift](qi-3001-han-shu/san-3001-shu-zu-han-shu/36arrayshift.md)
+    * [37、array\_slice](qi-3001-han-shu/san-3001-shu-zu-han-shu/37arrayslice.md)
 * [八、配置](ba-3001-pei-zhi.md)
   * [一、PHP.ini](ba-3001-pei-zhi/yi-3001-php-ini.md)
 
