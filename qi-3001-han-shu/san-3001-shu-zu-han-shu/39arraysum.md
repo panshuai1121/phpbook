@@ -2,7 +2,9 @@
 
 array\_sum 对数组中所有的值进行求和
 
-
+```
+number array_sum ( array $array )
+```
 
 
 
